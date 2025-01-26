@@ -25,6 +25,13 @@ namespace Scripts.UI
 
         private void Awake()
         {
+            if(gameStatus.StartCutsceneEnd)
+            {
+                finishCutscene();
+
+                return;
+            }
+
             gameStatus.GameStarted = true;
             gameStatus.StartCutsceneEnd = false;
 
@@ -36,6 +43,8 @@ namespace Scripts.UI
 
                 staticCutscenes.Add(imageComponent);
             }
+
+            currentCutsceneIndex = staticCutscenes.Count - 1;
         }
 
         private void Update()
@@ -52,20 +61,27 @@ namespace Scripts.UI
                 if (!finished)
                     currentCutsceneIndex--;
 
-                StartCoroutine(WaitBeforeClickAgain());
+                StartCoroutine(waitBeforeClickAgain());
             }
         }
 
-        private IEnumerator WaitBeforeClickAgain()
+        private void finishCutscene()
+        {
+            CutsceneEvents.InvokeOnStart();
+
+            Destroy(gameObject);
+        }
+
+        private IEnumerator waitBeforeClickAgain()
         {
             yield return new WaitForSeconds(1);
 
             if (finished)
             {
                 gameStatus.StartCutsceneEnd = true;
-                CutsceneEvents.InvokeOnStart();
 
-                Destroy(gameObject);
+                finishCutscene();
+
                 yield return null;
             }
             else if (currentCutsceneIndex == 0)

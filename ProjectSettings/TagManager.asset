@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - StaticCutscenes
+  - Enemy
+  - LevelController
+  - Borders
   layers:
   - Default
   - TransparentFX

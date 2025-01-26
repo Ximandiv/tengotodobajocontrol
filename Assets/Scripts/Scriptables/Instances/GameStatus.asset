@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074118067273b33449a5f0150f743c98, type: 3}
   m_Name: GameStatus
   m_EditorClassIdentifier: 
-  gameStarted: 0
-  startCutsceneEnd: 0
+  gameStarted: 1
+  startCutsceneEnd: 1
   gameFinished: 0

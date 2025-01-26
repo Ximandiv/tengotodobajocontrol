@@ -1,4 +1,5 @@
 using Scripts.Events.Cutscenes;
+using Scripts.Events.Player;
 using UnityEngine;
 
 namespace Scripts.Player
@@ -25,6 +26,9 @@ namespace Scripts.Player
         private Vector2 movementInput = Vector2.zero;
 
         [SerializeField]
+        private Vector2 direction = Vector2.zero;
+
+        [SerializeField]
         private GameStatus gameStatus;
 
         #endregion
@@ -44,6 +48,20 @@ namespace Scripts.Player
 
         #endregion
 
+        public void Initialize(Rigidbody2D playerRb)
+            => rb = playerRb;
+
+        public void OnPlayerKilled()
+        {
+            canMove = false;
+            stop();
+        }
+
+        public void OnFinishedInitCutscenes()
+        {
+            canMove = true;
+        }
+
         #region Unity API Methods
 
         private void Awake()
@@ -52,7 +70,6 @@ namespace Scripts.Player
                 canMove = false;
 
             rb = GetComponent<Rigidbody2D>();
-            CutsceneEvents.OnStart += onFinishedInitCutscenes;
         }
 
         private void Update()
@@ -62,6 +79,11 @@ namespace Scripts.Player
             getInput();
 
             isMoving = isCurrentlyMoving();
+
+            if(isMoving)
+                PlayerEvents.InvokePlayerMoving(direction);
+            else
+                PlayerEvents.InvokePlayerMoving(Vector2.zero);
         }
 
         private void FixedUpdate()
@@ -78,27 +100,21 @@ namespace Scripts.Player
 
         private void move()
         {
-            var direction = movementInput.normalized;
+            direction = movementInput.normalized;
 
             rb.linearVelocity = direction * movementSpeed;
         }
 
         private void stop()
-            => rb.linearVelocity = Vector2.zero;
+        {
+            isMoving = false;
+            rb.linearVelocity = Vector2.zero;
+        }
 
         private void getInput()
         {
             movementInput.x = Input.GetAxisRaw("Horizontal");
             movementInput.y = Input.GetAxisRaw("Vertical");
-        }
-
-        private void setCanMove(bool newStatus)
-            => canMove = newStatus;
-
-        private void onFinishedInitCutscenes()
-        {
-            canMove = true;
-            CutsceneEvents.OnStart -= onFinishedInitCutscenes;
         }
 
         private bool isCurrentlyMoving()

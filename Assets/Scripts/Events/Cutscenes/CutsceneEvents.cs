@@ -4,9 +4,9 @@ namespace Scripts.Events.Cutscenes
 {
     public static class CutsceneEvents
     {
-        public static event Action OnStart;
+        public static event Action OnInitialFinished;
 
         public static void InvokeOnStart()
-            => OnStart?.Invoke();
+            => OnInitialFinished?.Invoke();
     }
 }
