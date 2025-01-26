@@ -1205,7 +1205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -526, y: -234}
+  m_AnchoredPosition: {x: -515.51, y: -225}
   m_SizeDelta: {x: 129, y: 121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332796138
@@ -1849,6 +1849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSlider: {fileID: 1141865403}
   myMixer: {fileID: 24100000, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
+  fullVol: {fileID: 1332796138}
+  noVol: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
 --- !u!1 &2003576426
 GameObject:
   m_ObjectHideFlags: 0
