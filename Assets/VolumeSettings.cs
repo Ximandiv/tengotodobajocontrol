@@ -8,12 +8,17 @@ public class VolumeSettings : MonoBehaviour
     [SerializeField] private AudioMixer myMixer;
     public Image fullVol;
     public Sprite noVol;
+    public Sprite normalVol;
 
     private void Start()
     {
         SetMusicVolume();
     }
 
+    private void Update()
+    {
+        changeImage();
+    }
     public void SetMusicVolume()
     {
         float volume = musicSlider.value;
@@ -23,12 +28,14 @@ public class VolumeSettings : MonoBehaviour
 
     public void changeImage()
     {
-        if (musicSlider.value == 0.0001) 
+        if (musicSlider.value == 0.0001f)
         {
             fullVol.overrideSprite = noVol;
         }
-            
-            
+        else if (musicSlider.value > 0.0001f)
+        {
+            fullVol.overrideSprite = normalVol;
+        }
     }
     
 }

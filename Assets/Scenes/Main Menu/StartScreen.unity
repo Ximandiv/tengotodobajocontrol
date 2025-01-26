@@ -1851,6 +1851,7 @@ MonoBehaviour:
   myMixer: {fileID: 24100000, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
   fullVol: {fileID: 1332796138}
   noVol: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
+  normalVol: {fileID: -7754280961913482228, guid: ba7b5946c7d5c264ab816dfc0ec71127, type: 3}
 --- !u!1 &2003576426
 GameObject:
   m_ObjectHideFlags: 0
