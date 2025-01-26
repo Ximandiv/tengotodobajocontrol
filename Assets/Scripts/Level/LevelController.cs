@@ -9,6 +9,9 @@ namespace Scripts.Level
     {
         public static Transform Instance;
 
+        [SerializeField]
+        private GameStatus gameStatus;
+
         private void Awake()
         {
             if(Instance == null)
@@ -33,6 +36,8 @@ namespace Scripts.Level
         private void OnDestroy()
         {
             PlayerEvents.OnPlayerKilled -= RestartLevelHandler;
+            gameStatus.IsPlayerDead = false;
+            gameStatus.StartCutsceneEnd = false;
         }
 
         private IEnumerator RestartLevel()
@@ -40,6 +45,7 @@ namespace Scripts.Level
             yield return new WaitForSeconds(3);
             var sceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(sceneName);
+            gameStatus.IsPlayerDead = false;
         }
     }
 }

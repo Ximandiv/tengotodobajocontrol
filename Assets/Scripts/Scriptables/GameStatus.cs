@@ -20,6 +20,14 @@ public class GameStatus : ScriptableObject
     }
 
     [SerializeField]
+    private bool isPlayerDead = false;
+    public bool IsPlayerDead
+    {
+        get { return isPlayerDead; }
+        set { isPlayerDead = value; }
+    }
+
+    [SerializeField]
     private bool gameFinished = false;
     public bool GameFinished
     {

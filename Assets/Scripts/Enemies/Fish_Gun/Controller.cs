@@ -1,4 +1,5 @@
 using Scripts.Enemies.Common;
+using Scripts.Events.Level;
 using System.Collections;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ namespace Scripts.Enemies.Fish_Gun
         private VisionInRange hitboxToAttack;
         [SerializeField]
         private Transform gunProyectile;
+
+        public string levelPart = "One";
 
         private Transform player;
         private Rigidbody2D rb;
@@ -37,6 +40,19 @@ namespace Scripts.Enemies.Fish_Gun
             hitboxToAttack.OnPlayerOutOfReach += shouldStopAttack;
 
             player = GameObject.FindGameObjectWithTag("Player").transform;
+
+            LevelOneEvents.OnPartFinished += autoDestroy;
+        }
+
+        private void OnDestroy()
+        {
+            LevelOneEvents.OnPartFinished -= autoDestroy;
+        }
+
+        private void autoDestroy(string level)
+        {
+            if (level == levelPart)
+                Destroy(gameObject);
         }
 
         private void Update()
