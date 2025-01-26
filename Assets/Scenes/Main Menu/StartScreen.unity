@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 1077652459}
   - component: {fileID: 1077652458}
   - component: {fileID: 1077652462}
+  - component: {fileID: 1077652463}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -859,6 +860,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe7d0dd74c4cb984c87f19a7fae4f26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1077652463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077652457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c5b974534c7ec4286e36411570467b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1141865401
@@ -1486,6 +1499,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1077652463}
+        m_TargetAssemblyTypeName: ToCredits, Assembly-CSharp
+        m_MethodName: PlayCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1391841020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,14 +1725,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26139194, g: 0.6226415, b: 0.58181006, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -2424512722420009999, guid: 7e40826d3deb9e8458d2b633390148a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -3,14 +3,14 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject PausePanel;
+    public GameObject PauseIt;
     public bool isPaused;
 
 
     // Update is called once per frame
     public void Start()
     {
-        PausePanel.SetActive(false);
+        PauseIt.SetActive(false);
     }
     
     void Update()
@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Pause()
     {
-     PausePanel.gameObject.SetActive(true);
+     PauseIt.gameObject.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
     
@@ -39,7 +39,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Continue()
     {
-        PausePanel.gameObject.SetActive(false);
+        PauseIt.gameObject.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
 
