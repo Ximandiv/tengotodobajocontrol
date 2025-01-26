@@ -1,5 +1,6 @@
 using Scripts.Enemies.Common;
 using Scripts.Events.Level;
+using Scripts.Events.Player;
 using System.Collections;
 using UnityEngine;
 
@@ -105,6 +106,14 @@ namespace Scripts.Enemies.Fish_Gun
             var direction = (player.position - transform.position).normalized;
 
             rb.MovePosition(transform.position + (-direction) * movementSpeed * Time.fixedDeltaTime);
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.transform.CompareTag("Player"))
+            {
+                PlayerEvents.InvokePlayerDamaged(-1);
+            }
         }
     }
 }
