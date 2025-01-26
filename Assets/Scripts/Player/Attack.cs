@@ -36,7 +36,7 @@ namespace Scripts.Player
             bool isFlipped = spriteRenderer.flipX;
             newProjectile.GetComponent<BubbleProjectile>().InitializeDirection(isFlipped);
 
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(5);
             isAttacking = false;
         }
     }

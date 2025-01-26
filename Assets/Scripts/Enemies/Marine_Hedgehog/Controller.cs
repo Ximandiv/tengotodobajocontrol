@@ -10,6 +10,8 @@ namespace Scripts.Enemies.Marine_Hedgehog
         private string levelPart = "One";
         [SerializeField]
         private int meleeDamageAmount = 1;
+        [SerializeField]
+        private Animator animator;
 
         private void Awake()
         {
@@ -24,13 +26,16 @@ namespace Scripts.Enemies.Marine_Hedgehog
         private void autoDestroy(string level)
         {
             if(level == levelPart)
-                Destroy(gameObject);
+                Destroy(transform.parent.gameObject);
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.transform.CompareTag("Player"))
+            {
+                animator.SetBool("isAttacking", true);
                 PlayerEvents.InvokePlayerDamaged(meleeDamageAmount);
+            }
         }
     }
 }

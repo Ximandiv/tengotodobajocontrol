@@ -32,7 +32,7 @@ namespace Scripts.Enemies.Fish_Sword
         private void autoDestroy(string level)
         {
             if(level == levelPart)
-                Destroy(gameObject);
+                Destroy(transform.parent.gameObject);
         }
 
         private void OnCollisionEnter2D(Collision2D collision)

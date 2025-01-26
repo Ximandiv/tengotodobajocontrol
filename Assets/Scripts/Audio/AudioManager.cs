@@ -25,12 +25,12 @@ namespace Scripts.Audio
 
         public void changeSongOnPartInTutorial(string newPart)
         {
+            if (audioSource is null)
+                return;
+
             currentPart = newPart;
 
             StopAllCoroutines();
-
-            if (audioSource is null)
-                return;
 
             audioSource.Stop();
 
@@ -59,7 +59,7 @@ namespace Scripts.Audio
                 audioSource.loop = true;
                 audioSource.Play();
             }
-            else if (currentPart == "Boss")
+            else if (currentPart == "Four")
             {
                 audioSource.clip = tutorialBoss;
                 audioSource.loop = true;
@@ -113,6 +113,7 @@ namespace Scripts.Audio
         private void OnDestroy()
         {
             audioSource = null;
+            StopAllCoroutines();
         }
 
         private IEnumerator WaitForAudioToEnd()

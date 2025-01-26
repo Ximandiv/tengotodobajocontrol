@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: GameStatus
   m_EditorClassIdentifier: 
   gameStarted: 1
-  startCutsceneEnd: 1
+  startCutsceneEnd: 0
+  isInTutorial: 0
+  isPlayerDead: 0
   gameFinished: 0

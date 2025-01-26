@@ -116,12 +116,12 @@ TextureImporter:
       name: animacion disparo burbuja2_00017_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 50
-        width: 410
-        height: 414
+        x: 0
+        y: 35
+        width: 429
+        height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b7da3fb2c7f3baa4eaeb8962806c6025
     internalID: 0
     vertices: []
     indices: 

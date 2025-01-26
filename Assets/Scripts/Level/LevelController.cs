@@ -34,7 +34,7 @@ namespace Scripts.Level
             StartCoroutine(RestartLevel());
         }
 
-        private void OnDestroy()
+        private void OnApplicationQuit()
         {
             PlayerEvents.OnPlayerKilled -= RestartLevelHandler;
             gameStatus.IsPlayerDead = false;

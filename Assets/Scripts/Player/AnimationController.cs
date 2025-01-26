@@ -15,12 +15,19 @@ public class AnimationController : MonoBehaviour
 
         PlayerEvents.OnPlayerMoving += handleMovement;
         PlayerEvents.OnPlayerShootingBubbles += handleShootingBubbles;
+        PlayerEvents.OnPlayerKilled += handleDeath;
     }
 
     private void OnDestroy()
     {
         PlayerEvents.OnPlayerMoving -= handleMovement;
         PlayerEvents.OnPlayerShootingBubbles -= handleShootingBubbles;
+        PlayerEvents.OnPlayerKilled -= handleDeath;
+    }
+
+    private void handleDeath()
+    {
+        animator.SetBool("isDying", true);
     }
 
     private void handleShootingBubbles(bool isShooting)

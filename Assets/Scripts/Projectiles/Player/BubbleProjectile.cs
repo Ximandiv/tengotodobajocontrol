@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Scripts.Projectiles.Player
@@ -6,7 +7,9 @@ namespace Scripts.Projectiles.Player
     {
         private Rigidbody2D rb;
         private SpriteRenderer spriteRenderer;
+        private Animator animator;
         private Vector2 moveDirection = Vector2.right;
+        private bool isDying = false;
 
         [SerializeField]
         private int speed = 3;
@@ -22,6 +25,7 @@ namespace Scripts.Projectiles.Player
         private void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            animator = GetComponent<Animator>();
         }
 
         private void FixedUpdate()
@@ -35,18 +39,31 @@ namespace Scripts.Projectiles.Player
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.transform.CompareTag("EnemyProjectile"))
-            {
-                Destroy(collision.gameObject);
-                Destroy(gameObject);
-            }
-            else if(collision.transform.CompareTag("Enemy"))
-            {
-                Destroy(collision.gameObject);
-                Destroy(gameObject);
-            }
+            if (isDying)
+                return;
+
+            if (collision.transform.CompareTag("Enemy"))
+                if(!isDying)
+                    StartCoroutine(destroyBubble(collision));
+            else if(collision.transform.CompareTag("EnemyProjectile"))
+                if (!isDying)
+                    StartCoroutine(destroyBubble(collision, true));
             else if (collision.transform.CompareTag("Borders"))
-                Destroy(gameObject);
+                if (!isDying)
+                    StartCoroutine(destroyBubble(collision));
+        }
+
+        private IEnumerator destroyBubble(Collider2D collision, bool isProjectile = false)
+        {
+            if(!isProjectile)
+                Destroy(collision.transform.parent.gameObject);
+            else
+                Destroy(collision.gameObject);
+
+            isDying = true;
+
+            animator.SetBool("touched", true);
+            yield return new WaitForSeconds(0.31f);
         }
     }
 }
