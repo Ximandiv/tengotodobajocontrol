@@ -7,6 +7,9 @@ namespace Scripts.Level
     {
         public string level = "One";
 
+        [SerializeField]
+        private GameStatus gameStatus;
+
         private void Awake()
         {
             LevelOneEvents.OnCheckpointLoaded += closeIfAlreadyPassed;
@@ -14,6 +17,7 @@ namespace Scripts.Level
 
         private void OnDestroy()
         {
+            level = "N/A";
             LevelOneEvents.OnCheckpointLoaded -= closeIfAlreadyPassed;
         }
 
@@ -28,7 +32,7 @@ namespace Scripts.Level
 
         private void OnTriggerExit2D(Collider2D collision)
         {
-            if (collision.CompareTag("Player"))
+            if (collision.CompareTag("Player") && !gameStatus.IsPlayerDead)
             {
                 GetComponent<BoxCollider2D>().isTrigger = false;
                 transform.gameObject.tag = "Borders";
@@ -38,23 +42,7 @@ namespace Scripts.Level
 
         private void invokeLevelPartFinished()
         {
-            switch (level)
-            {
-                case "One":
-                    LevelOneEvents.InvokePartOneFinished();
-                    break;
-                case "Two":
-                    LevelOneEvents.InvokePartTwoFinished();
-                    break;
-                case "Three":
-                    LevelOneEvents.InvokePartThreeFinished();
-                    break;
-                case "Four":
-                    LevelOneEvents.InvokePartFourFinished();
-                    break;
-                default:
-                    break;
-            }
+            LevelOneEvents.InvokePartFinished(level);
         }
     }
 }

@@ -13,6 +13,9 @@ namespace Scripts.Player
         private Health playerHealth;
         private Movement playerMovement;
 
+        [SerializeField]
+        private GameStatus gameStatus;
+
         private void Awake()
         {
             playerHealth = GetComponent<Health>();
@@ -29,6 +32,7 @@ namespace Scripts.Player
                 PlayerEvents.OnPlayerDamaged -= playerHealth.Damage;
                 CutsceneEvents.OnInitialFinished -= playerMovement.OnFinishedInitCutscenes;
                 PlayerEvents.OnPlayerKilled -= playerMovement.OnPlayerKilled;
+                gameStatus.IsPlayerDead = true;
             };
         }
     }

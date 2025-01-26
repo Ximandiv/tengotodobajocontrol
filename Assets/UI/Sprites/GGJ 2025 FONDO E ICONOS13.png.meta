@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -309,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025 FONDO E ICONOS13_0: -7930334831009232922
+      GGJ 2025 FONDO E ICONOS13_1: 7147755022270397257
+      GGJ 2025 FONDO E ICONOS13_2: -4028809793480714890
+      GGJ 2025 FONDO E ICONOS13_3: -3617973514232506586
+      GGJ 2025 FONDO E ICONOS13_4: -2483339927766514202
+      GGJ 2025 FONDO E ICONOS13_5: 5546034781002832187
+      GGJ 2025 FONDO E ICONOS13_6: 896867584310990660
+      GGJ 2025 FONDO E ICONOS13_7: 3151083859803901656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

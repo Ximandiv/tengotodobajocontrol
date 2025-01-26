@@ -13,48 +13,19 @@ namespace Scripts.Enemies.Marine_Hedgehog
 
         private void Awake()
         {
-            switch (levelPart)
-            {
-                case "One":
-                    LevelOneEvents.OnPartOneFinished += autoDestroy;
-                    break;
-                case "Two":
-                    LevelOneEvents.OnPartTwoFinished += autoDestroy;
-                    break;
-                case "Three":
-                    LevelOneEvents.OnPartThreeFinished += autoDestroy;
-                    break;
-                case "Four":
-                    LevelOneEvents.OnPartFourFinished += autoDestroy;
-                    break;
-                default:
-                    break;
-            }
+            LevelOneEvents.OnPartFinished += autoDestroy;
         }
 
         private void OnDestroy()
         {
-            switch (levelPart)
-            {
-                case "One":
-                    LevelOneEvents.OnPartOneFinished -= autoDestroy;
-                    break;
-                case "Two":
-                    LevelOneEvents.OnPartTwoFinished -= autoDestroy;
-                    break;
-                case "Three":
-                    LevelOneEvents.OnPartThreeFinished -= autoDestroy;
-                    break;
-                case "Four":
-                    LevelOneEvents.OnPartFourFinished -= autoDestroy;
-                    break;
-                default:
-                    break;
-            }
+            LevelOneEvents.OnPartFinished -= autoDestroy;
         }
 
-        private void autoDestroy()
-            => Destroy(gameObject);
+        private void autoDestroy(string level)
+        {
+            if(level == levelPart)
+                Destroy(gameObject);
+        }
 
         private void OnTriggerEnter2D(Collider2D collision)
         {

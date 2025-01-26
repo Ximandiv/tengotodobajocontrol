@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6724725415150397906}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 7360222721801751539}
   - component: {fileID: 363283577052159026}
   - component: {fileID: 5496588938667736011}
+  - component: {fileID: 8845312646662880450}
   m_Layer: 0
   m_Name: Logic
   m_TagString: Player
@@ -301,3 +302,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e779cf17b3263b4a83609a58b15d5b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStatus: {fileID: 11400000, guid: 1783c12e5a18c5f4285d831e3e20c44a, type: 2}
+--- !u!114 &8845312646662880450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349577753243224395}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84e80c4b32881648865f3a362fa4b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  projectile: {fileID: 4414983930527106626, guid: 3c447dd5c39a24a46aed27f25f9bf606, type: 3}
+  spriteRenderer: {fileID: 5175496238232727379}

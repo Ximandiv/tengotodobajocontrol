@@ -30,8 +30,10 @@ public class AnimationController : MonoBehaviour
         }
 
         if (direction.x < 0)
+        {
             spriteRenderer.flipX = true;
-        else if(direction.x > 0)
+        }
+        else if (direction.x > 0)
             spriteRenderer.flipX = false;
 
         animator.SetBool("isMoving", true);
