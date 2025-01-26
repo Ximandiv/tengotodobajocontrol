@@ -6,6 +6,7 @@ namespace Scripts.Events.Player
     public static class PlayerEvents
     {
         public static event Action OnPlayerKilled;
+        public static event Action<bool> OnPlayerShootingBubbles;
         public static event Action<Vector2> OnPlayerMoving;
         public static event Action<int> OnPlayerDamaged;
 
@@ -17,5 +18,8 @@ namespace Scripts.Events.Player
 
         public static void InvokePlayerMoving(Vector2 playerDirection)
             => OnPlayerMoving?.Invoke(playerDirection);
+
+        public static void InvokePlayerShootingBubbles(bool isShooting)
+            => OnPlayerShootingBubbles?.Invoke(isShooting);
     }
 }

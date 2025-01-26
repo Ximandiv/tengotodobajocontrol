@@ -21,6 +21,8 @@ public class DuelContainer : MonoBehaviour
             invisibleWallRight.tag = "Borders";
 
             collision.GetComponent<Attack>().enabled = true;
+
+            LevelOneEvents.InvokePartFinished("Duel");
         }
     }
 

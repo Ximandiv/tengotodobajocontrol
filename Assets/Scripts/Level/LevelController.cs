@@ -24,7 +24,8 @@ namespace Scripts.Level
                 Destroy(gameObject);
                 return;
             }
-
+            
+            gameStatus.IsInTutorial = true;
             PlayerEvents.OnPlayerKilled += RestartLevelHandler;
         }
 
@@ -38,6 +39,7 @@ namespace Scripts.Level
             PlayerEvents.OnPlayerKilled -= RestartLevelHandler;
             gameStatus.IsPlayerDead = false;
             gameStatus.StartCutsceneEnd = false;
+            gameStatus.IsInTutorial = false;
         }
 
         private IEnumerator RestartLevel()

@@ -14,11 +14,18 @@ public class AnimationController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         PlayerEvents.OnPlayerMoving += handleMovement;
+        PlayerEvents.OnPlayerShootingBubbles += handleShootingBubbles;
     }
 
     private void OnDestroy()
     {
         PlayerEvents.OnPlayerMoving -= handleMovement;
+        PlayerEvents.OnPlayerShootingBubbles -= handleShootingBubbles;
+    }
+
+    private void handleShootingBubbles(bool isShooting)
+    {
+        animator.SetBool("isShootingBubbles", isShooting);
     }
 
     private void handleMovement(Vector2 direction)

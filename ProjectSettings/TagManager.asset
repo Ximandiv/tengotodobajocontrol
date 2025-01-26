@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - LevelController
   - Borders
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
