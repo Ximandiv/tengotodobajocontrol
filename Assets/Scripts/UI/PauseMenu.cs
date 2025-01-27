@@ -1,9 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField]
-    private bool isPaused;
+    [SerializeField] private bool isPaused;
 
     public void Start()
     {
@@ -50,4 +50,23 @@ public class PauseMenu : MonoBehaviour
             child.gameObject.SetActive(activeStatus);
         }
     }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void ContinueButton()
+    {
+        setChildren(false);
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
 }
