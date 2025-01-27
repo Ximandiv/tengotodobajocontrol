@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu/StartScreen.unity
     guid: 7111350af1f0a7a4e85aa65abb9eb60b
   - enabled: 1
-    path: Assets/Scenes/Levels/Tutorial.unity
+    path: Assets/Scenes/Levels/JamTutorial.unity
     guid: fc72c601ff260f844aa91a13f6c216cd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
