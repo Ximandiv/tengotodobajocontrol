@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject PauseIt;
-    public bool isPaused;
+    [SerializeField]
+    private bool isPaused;
 
-
-    // Update is called once per frame
     public void Start()
     {
-        PauseIt.SetActive(false);
+        setChildren(false);
     }
     
     void Update()
@@ -31,7 +28,8 @@ public class PauseMenu : MonoBehaviour
 
     private void Pause()
     {
-     PauseIt.gameObject.SetActive(true);
+        setChildren(true);
+
         Time.timeScale = 0f;
         isPaused = true;
     
@@ -39,9 +37,17 @@ public class PauseMenu : MonoBehaviour
 
     private void Continue()
     {
-        PauseIt.gameObject.SetActive(false);
+        setChildren(false);
+
         Time.timeScale = 1f;
         isPaused = false;
+    }
 
+    private void setChildren(bool activeStatus)
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(activeStatus);
+        }
     }
 }
