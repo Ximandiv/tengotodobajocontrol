@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_edificio_01_0: -8135554614604827066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

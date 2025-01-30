@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      luz proyectada suelo_0: -8704005664238003906
+      luz proyectada suelo_1: -1732854035563620713
+      luz proyectada suelo_2: -1548439600120688892
+      luz proyectada suelo_3: 2897737235634661184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

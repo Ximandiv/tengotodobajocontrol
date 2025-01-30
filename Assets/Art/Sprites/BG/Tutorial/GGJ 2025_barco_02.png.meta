@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_barco_02_0: 7435549329086302316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

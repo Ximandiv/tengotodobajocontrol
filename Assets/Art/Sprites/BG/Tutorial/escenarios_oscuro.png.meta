@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      escenarios_oscuro_0: -138064148098621656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

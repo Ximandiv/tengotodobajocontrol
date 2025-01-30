@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_craneo_01_0: 8636535666579125543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

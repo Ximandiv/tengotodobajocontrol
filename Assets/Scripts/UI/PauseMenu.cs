@@ -1,54 +1,56 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class GameController : MonoBehaviour
 {
-    [SerializeField] private bool isPaused;
+    [SerializeField] private GameObject startPanel;  
+    [SerializeField] private GameObject pausePanel;  
 
-    public void Start()
+    private bool isGamePaused = false;  
+
+    void Start()
     {
-        setChildren(false);
+        
+        startPanel.SetActive(true);
+        pausePanel.SetActive(false);
     }
-    
+
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(isPaused)
+            if (isGamePaused)
             {
-                Continue();
+                ContinueGame();
             }
             else
             {
-                Pause();
+                PauseGame();
             }
-   
         }
     }
 
-    private void Pause()
+    private void PauseGame()
     {
-        setChildren(true);
-
-        Time.timeScale = 0f;
-        isPaused = true;
-    
+        
+        pausePanel.SetActive(true);
+        Time.timeScale = 0f;  
+        isGamePaused = true;
     }
 
-    private void Continue()
+    public void ContinueGame()
     {
-        setChildren(false);
-
-        Time.timeScale = 1f;
-        isPaused = false;
+        
+        pausePanel.SetActive(false);
+        Time.timeScale = 1f;  
+        isGamePaused = false;
     }
 
-    private void setChildren(bool activeStatus)
+    public void StartGame()
     {
-        foreach (Transform child in transform)
-        {
-            child.gameObject.SetActive(activeStatus);
-        }
+        
+        startPanel.SetActive(false);
     }
 
     public void ToMenu()
@@ -58,15 +60,6 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit();  
     }
-
-    public void ContinueButton()
-    {
-        setChildren(false);
-
-        Time.timeScale = 1f;
-        isPaused = false;
-    }
-
 }

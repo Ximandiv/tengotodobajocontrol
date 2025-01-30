@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_sauron_02_0: -7206022979381951243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

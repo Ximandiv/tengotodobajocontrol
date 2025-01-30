@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_costillas_01_0: -6335199070499962765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
