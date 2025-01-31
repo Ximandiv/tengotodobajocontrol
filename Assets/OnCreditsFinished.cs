@@ -19,8 +19,6 @@ public class OnCreditsFinished : MonoBehaviour
             || Input.GetMouseButtonDown(0))
         {
             StopAllCoroutines();
-            totalCreditsTime = 20;
-            isCounting = false;
             SceneManager.LoadSceneAsync(1);
         }
     }
