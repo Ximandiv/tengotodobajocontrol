@@ -1,6 +1,4 @@
 using Scripts.Events.Cutscenes;
-using Scripts.Player;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,6 +23,9 @@ namespace Scripts.UI
 
         private void Awake()
         {
+            PauseMenu.OnPause += stopOnPause;
+            PauseMenu.OnResume += continueOnResume;
+
             if(gameStatus.StartCutsceneEnd)
             {
                 finishCutscene();
@@ -46,6 +47,21 @@ namespace Scripts.UI
 
             currentCutsceneIndex = staticCutscenes.Count - 1;
         }
+
+        private void OnDestroy()
+        {
+            PauseMenu.OnPause -= stopOnPause;
+            PauseMenu.OnResume -= continueOnResume;
+        }
+
+        private void stopOnPause()
+        {
+            canClick = false;
+            StopAllCoroutines();
+        }
+
+        private void continueOnResume()
+            => canClick = true;
 
         private void Update()
         {
