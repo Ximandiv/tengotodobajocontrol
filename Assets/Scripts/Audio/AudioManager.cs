@@ -96,7 +96,7 @@ namespace Scripts.Audio
             LevelOneEvents.OnPartFinished += changeSongOnPartInTutorial;
             SceneManager.sceneLoaded += (Scene scene, LoadSceneMode loadMode) =>
             {
-                if (scene.name != "Tutorial")
+                if (scene.name != "JamTutorial")
                 {
                     StopAllCoroutines();
                     audioSource.Stop();

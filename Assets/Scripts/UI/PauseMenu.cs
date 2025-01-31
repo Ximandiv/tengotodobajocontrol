@@ -4,26 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static PauseMenu Instance;
-    [SerializeField] private GameObject startPanel;  
+    [SerializeField] private GameObject startPanel;
     [SerializeField] private GameObject pausePanel;
     public static event Action OnPause;
     public static event Action OnResume;
 
     private bool isGamePaused = false;
-
-    private void Awake()
-    {
-        if(Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
 
     void Start()
     {

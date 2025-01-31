@@ -70,6 +70,9 @@ namespace Scripts.Player
                 canMove = false;
 
             rb = GetComponent<Rigidbody2D>();
+
+            PauseMenu.OnPause += stopMoveOnPause;
+            PauseMenu.OnResume += resumeMove;
         }
 
         private void Update()
@@ -84,6 +87,18 @@ namespace Scripts.Player
                 PlayerEvents.InvokePlayerMoving(direction);
             else
                 PlayerEvents.InvokePlayerMoving(Vector2.zero);
+        }
+
+        private void stopMoveOnPause()
+            => canMove = false;
+
+        private void resumeMove()
+            => canMove = true;
+
+        private void OnDestroy()
+        {
+            PauseMenu.OnPause -= stopMoveOnPause;
+            PauseMenu.OnResume -= resumeMove;
         }
 
         private void FixedUpdate()
