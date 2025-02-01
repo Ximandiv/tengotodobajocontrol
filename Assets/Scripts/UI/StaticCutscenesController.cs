@@ -90,8 +90,6 @@ namespace Scripts.UI
 
         private IEnumerator waitBeforeClickAgain()
         {
-            yield return new WaitForSeconds(1);
-
             if (finished)
             {
                 gameStatus.StartCutsceneEnd = true;
@@ -100,7 +98,11 @@ namespace Scripts.UI
 
                 yield return null;
             }
-            else if (currentCutsceneIndex == 0)
+
+            yield return new WaitForSeconds(1);
+
+            
+            if (currentCutsceneIndex == 0)
                 finished = true;
 
             canClick = true;

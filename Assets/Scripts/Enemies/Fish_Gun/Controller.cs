@@ -53,7 +53,7 @@ namespace Scripts.Enemies.Fish_Gun
         private void autoDestroy(string level)
         {
             if (level == levelPart)
-                Destroy(transform.parent.gameObject);
+                transform.parent.gameObject.SetActive(false);
         }
 
         private void Update()

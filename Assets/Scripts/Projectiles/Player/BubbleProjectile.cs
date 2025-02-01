@@ -42,28 +42,36 @@ namespace Scripts.Projectiles.Player
             if (isDying)
                 return;
 
+            if (collision.transform.CompareTag("EnemyProjectile"))
+                if (!isDying)
+                    StartCoroutine(destroyBubble(collision, true));
+
+            if (collision.transform.CompareTag("Borders"))
+                if (!isDying)
+                    StartCoroutine(destroyBubble(collision, false, true));
+
+            if (collision.transform.CompareTag("Indestructible"))
+                if (!isDying)
+                    StartCoroutine(destroyBubble(collision, false, true));
+
             if (collision.transform.CompareTag("Enemy"))
                 if(!isDying)
                     StartCoroutine(destroyBubble(collision));
-            else if(collision.transform.CompareTag("EnemyProjectile"))
-                if (!isDying)
-                    StartCoroutine(destroyBubble(collision, true));
-            else if (collision.transform.CompareTag("Borders"))
-                if (!isDying)
-                    StartCoroutine(destroyBubble(collision));
         }
 
-        private IEnumerator destroyBubble(Collider2D collision, bool isProjectile = false)
+        private IEnumerator destroyBubble(Collider2D collision, bool isProjectile = false, bool isBorder = false)
         {
-            if(!isProjectile)
+            if(!isProjectile && !isBorder)
                 Destroy(collision.transform.parent.gameObject);
-            else
+            else if(!isBorder)
                 Destroy(collision.gameObject);
 
             isDying = true;
 
             animator.SetBool("touched", true);
             yield return new WaitForSeconds(0.31f);
+
+            Destroy(gameObject);
         }
     }
 }

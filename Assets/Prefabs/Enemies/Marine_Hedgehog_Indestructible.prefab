@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 1444092772750999387}
   m_Layer: 0
   m_Name: Logic
-  m_TagString: Untagged
+  m_TagString: Indestructible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

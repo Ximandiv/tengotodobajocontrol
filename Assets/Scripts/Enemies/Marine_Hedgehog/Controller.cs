@@ -26,7 +26,7 @@ namespace Scripts.Enemies.Marine_Hedgehog
         private void autoDestroy(string level)
         {
             if(level == levelPart)
-                Destroy(transform.parent.gameObject);
+                transform.parent.gameObject.SetActive(false);
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
