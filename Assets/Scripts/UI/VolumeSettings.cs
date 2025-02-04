@@ -12,7 +12,14 @@ public class VolumeSettings : MonoBehaviour
 
     private void Start()
     {
-        SetMusicVolume();
+        if (PlayerPrefs.HasKey("masterVolume"))
+        {
+            loadVolume();
+        }
+        else
+        {
+            SetMusicVolume();
+        }
     }
 
     private void Update()
@@ -22,8 +29,16 @@ public class VolumeSettings : MonoBehaviour
     public void SetMusicVolume()
     {
         float volume = musicSlider.value;
-        myMixer.SetFloat("music", Mathf.Log10(volume)*20);
+        myMixer.SetFloat("master", Mathf.Log10(volume)*20);
+        PlayerPrefs.SetFloat("masterVolume", volume);
 
+    }
+
+    private void loadVolume()
+    {
+        musicSlider.value = PlayerPrefs.GetFloat("masterVolume");
+
+        SetMusicVolume();
     }
 
     public void changeImage()

@@ -5754,7 +5754,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1393481442}
         m_TargetAssemblyTypeName: VolumeSettings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
@@ -12909,7 +12909,7 @@ AudioSource:
   m_GameObject: {fileID: 1303161356}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6462143515239415388, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -14308,6 +14308,7 @@ GameObject:
   - component: {fileID: 1393481438}
   - component: {fileID: 1393481437}
   - component: {fileID: 1393481441}
+  - component: {fileID: 1393481442}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -14413,6 +14414,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPanel: {fileID: 1482322850}
   pausePanel: {fileID: 547807984}
+--- !u!114 &1393481442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393481436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa80c73918eff046b3de47d102c5905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSlider: {fileID: 605159187}
+  myMixer: {fileID: 24100000, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
+  fullVol: {fileID: 25459232}
+  noVol: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
+  normalVol: {fileID: -7754280961913482228, guid: ba7b5946c7d5c264ab816dfc0ec71127, type: 3}
 --- !u!1001 &1400606726
 PrefabInstance:
   m_ObjectHideFlags: 0
