@@ -18,7 +18,7 @@ namespace Scripts.Enemies.Fish_Sword
         private float animationTime = 0.8f;
         private float animationTimeOffset = 0.1f;
 
-        private bool inRange = false;
+        public bool inRange = false;
         private Animator animator;
         private Coroutine attackCoroutine;
 

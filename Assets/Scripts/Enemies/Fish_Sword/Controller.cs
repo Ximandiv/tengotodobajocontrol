@@ -10,11 +10,13 @@ namespace Scripts.Enemies.Fish_Sword
         private Movement enemyMovement;
         private Attack enemyAttack;
         private Rigidbody2D rb;
+        private Transform spriteTransform;
 
         [SerializeField]
         private string levelPart = "One";
 
         private int damageAmount = -1;
+        private bool isFacingRight = false;
         private Animator animator;
 
         private void Awake()
@@ -22,12 +24,32 @@ namespace Scripts.Enemies.Fish_Sword
             rb = GetComponent<Rigidbody2D>();
             enemyMovement = GetComponent<Movement>();
             enemyAttack = GetComponent<Attack>();
-            animator = transform.GetChild(0).GetComponent<Animator>();
+            spriteTransform = transform.Find("Sprite");
+            animator = spriteTransform.GetComponent<Animator>();
 
             enemyAttack.Initialize(animator);
             enemyMovement.Initialize(rb);
 
             LevelOneEvents.OnPartFinished += autoDestroy;
+        }
+
+        private void Update()
+        {
+            if (!enemyAttack.inRange) return;
+            
+            float direction = PlayerTracker.Instance.PlayerPosition.x - transform.position.x;
+
+            if (direction < 0 && isFacingRight)
+                flip();
+            else if (direction > 0 && !isFacingRight)
+                flip();
+        }
+
+        private void flip()
+        {
+            isFacingRight = !isFacingRight;
+
+            spriteTransform.GetComponent<SpriteRenderer>().flipX = isFacingRight;
         }
 
         private void OnDestroy()

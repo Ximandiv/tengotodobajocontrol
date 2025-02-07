@@ -3,6 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class Mainmenu : MonoBehaviour
 {
+    private void Awake()
+    {
+        if(Time.timeScale <= 0f)
+            Time.timeScale = 1f;
+    }
+
     void Update()
     {
         

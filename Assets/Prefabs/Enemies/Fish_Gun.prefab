@@ -214,7 +214,7 @@ MonoBehaviour:
   playerDistance: 0
   minimumAvoidDistance: 9
   movementSpeed: 14
-  cooldownPerAttack: 2.5
+  cooldownPerAttack: 3
 --- !u!1 &4090178922087223725
 GameObject:
   m_ObjectHideFlags: 0
