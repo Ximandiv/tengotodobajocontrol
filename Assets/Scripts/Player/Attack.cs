@@ -18,7 +18,8 @@ namespace Scripts.Player
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(1) && !isAttacking)
+            if ((Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) 
+                && !isAttacking)
                 StartCoroutine(shoot());
         }
 
