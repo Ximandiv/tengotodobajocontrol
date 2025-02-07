@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 581050411489270474}
   - component: {fileID: 4795896577460347194}
   - component: {fileID: 7697403543909591061}
-  - component: {fileID: 2754841958696738598}
+  - component: {fileID: 303050816973529501}
   m_Layer: 0
   m_Name: Sword_Projectile
   m_TagString: EnemyProjectile
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -4348707887679265946, guid: fc20b99f4b4ca0b438a6fb0f74b216ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2.25, y: 5.03}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -132,8 +132,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &2754841958696738598
-CapsuleCollider2D:
+--- !u!60 &303050816973529501
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167,5 +167,34 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64285713, y: 1.4371428}
+    newSize: {x: 2.25, y: 5.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.09127459, y: 0.44716516}
+      - {x: -0.051422656, y: 0.8045938}
+      - {x: -0.083037555, y: 0.60834867}
+      - {x: -0.102479815, y: 0.46422058}
+      - {x: -0.14886248, y: -0.07665318}
+      - {x: -0.32262424, y: -0.09884934}
+      - {x: -0.330492, y: -0.13607913}
+      - {x: -0.28495577, y: -0.15581462}
+      - {x: -0.04785657, y: -0.17320523}
+      - {x: -0.042611122, y: -0.63063025}
+      - {x: -0.07918835, y: -0.7077013}
+      - {x: 0.02537793, y: -0.72935367}
+      - {x: 0.114205346, y: -0.7089216}
+      - {x: 0.078060165, y: -0.63101584}
+      - {x: 0.11327547, y: -0.15956816}
+      - {x: 0.28543928, y: -0.13136911}
+      - {x: 0.313186, y: -0.1218314}
+      - {x: 0.3279004, y: -0.08579311}
+      - {x: 0.20028508, y: -0.08693761}
+  m_UseDelaunayMesh: 0
