@@ -132,6 +132,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -434,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_0: 4267456492961549740
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_1: 154464804278809434
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_10: -4442759976285385353
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_11: 5201454381414453369
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_12: 5484663643774640518
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_2: -8077433983851538608
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_3: -389747256637770469
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_4: -204074518343819762
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_5: -1054197915418152044
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_6: 8849607615528031580
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_7: 7831422487186916769
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_8: -7982219455376262564
+      GGJ 2025_ PAUSA_FONDO E ICONOS_1_9: -3830244265556034513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

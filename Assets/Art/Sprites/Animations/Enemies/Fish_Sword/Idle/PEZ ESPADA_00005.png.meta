@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e628f70bb363f294c9a05ab1502328b3
+guid: 7dd13f88383bb594a85e949d741eaf66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8299783163879223671
-    second: pantalla_inicio_duelo 1_0
+      213: 7340099233656296863
+    second: PEZ ESPADA_00005_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pantalla_inicio_duelo 1_0
+      name: PEZ ESPADA_00005_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 720
+        x: 455
+        y: 318
+        width: 453
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 771f9cb30d0ce2370800000000000000
-      internalID: 8299783163879223671
+      spriteID: f95533e0d554dd560800000000000000
+      internalID: 7340099233656296863
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pantalla_inicio_duelo 1_0: 8299783163879223671
+      PEZ ESPADA_00005_0: 7340099233656296863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

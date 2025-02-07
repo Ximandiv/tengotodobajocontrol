@@ -8,17 +8,23 @@ namespace Scripts.Enemies.Fish_Sword
     public class Controller : MonoBehaviour
     {
         private Movement enemyMovement;
+        private Attack enemyAttack;
         private Rigidbody2D rb;
 
         [SerializeField]
         private string levelPart = "One";
 
-        private int damageAmount = 1;
+        private int damageAmount = -1;
+        private Animator animator;
 
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
             enemyMovement = GetComponent<Movement>();
+            enemyAttack = GetComponent<Attack>();
+            animator = transform.GetChild(0).GetComponent<Animator>();
+
+            enemyAttack.Initialize(animator);
             enemyMovement.Initialize(rb);
 
             LevelOneEvents.OnPartFinished += autoDestroy;
@@ -39,6 +45,7 @@ namespace Scripts.Enemies.Fish_Sword
         {
             if (collision.transform.CompareTag("Player"))
             {
+                animator.SetBool("isAttacking", true);
                 PlayerEvents.InvokePlayerDamaged(damageAmount);
             }
         }

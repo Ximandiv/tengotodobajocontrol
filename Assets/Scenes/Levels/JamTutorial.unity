@@ -6822,7 +6822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duelResults: {fileID: 723915580}
-  duelController: {fileID: 0}
+  duelController: {fileID: 2110003615}
   invisibleWallLeft: {fileID: 1478569959}
   invisibleWallRight: {fileID: 1973189927}
 --- !u!212 &742481970
@@ -19927,7 +19927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4031397891568362507, guid: db18092dc14792b49a57cff33e09dd81, type: 3}
+  m_Sprite: {fileID: 8299783163879223671, guid: e628f70bb363f294c9a05ab1502328b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

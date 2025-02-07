@@ -12,10 +12,18 @@ namespace Scripts.Enemies.Fish_Sword
         [SerializeField]
         private Transform projectile;
         [SerializeField]
-        private int cooldownPerAttack = 5;
+        private int cooldownPerAttack = 3;
+
+        [SerializeField]
+        private float animationTime = 0.8f;
+        private float animationTimeOffset = 0.1f;
 
         private bool inRange = false;
+        private Animator animator;
         private Coroutine attackCoroutine;
+
+        public void Initialize(Animator spriteAnimator)
+            => animator = spriteAnimator;
 
         private void Awake()
         {
@@ -43,6 +51,8 @@ namespace Scripts.Enemies.Fish_Sword
 
         private void stopAttack()
         {
+            animator.SetBool("isAttacking", false);
+
             inRange = false;
 
             if (attackCoroutine != null)
@@ -56,7 +66,15 @@ namespace Scripts.Enemies.Fish_Sword
         {
             while (inRange)
             {
+                animator.SetBool("isAttacking", true);
+
+                yield return new WaitForSeconds(animationTime - animationTimeOffset);
+
                 Instantiate(projectile.gameObject, transform.position, Quaternion.identity);
+
+                yield return new WaitForSeconds(animationTimeOffset);
+
+                animator.SetBool("isAttacking", false);
 
                 yield return new WaitForSeconds(cooldownPerAttack);
             }
