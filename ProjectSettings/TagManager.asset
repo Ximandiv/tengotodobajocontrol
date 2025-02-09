@@ -10,6 +10,8 @@ TagManager:
   - Borders
   - EnemyProjectile
   - DuelController
+  - Indestructible
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX

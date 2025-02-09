@@ -25,10 +25,11 @@ namespace Scripts.Enemies.Fish_Sword
         {
             if (isMoving && currentIndex < TravelPoints.Count)
             {
-                MoveToNextPoint();
+                moveToNextPoint();
             }
         }
-        private void MoveToNextPoint()
+
+        private void moveToNextPoint()
         {
             Transform nextPoint = TravelPoints[currentIndex];
 
