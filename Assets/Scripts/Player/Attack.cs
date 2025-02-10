@@ -14,7 +14,7 @@ namespace Scripts.Player
         [SerializeField]
         private SpriteRenderer spriteRenderer;
 
-        private bool isAttacking = false;
+        public bool isAttacking = false;
 
         private void Update()
         {
