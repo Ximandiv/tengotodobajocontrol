@@ -9,11 +9,16 @@ namespace Scripts.Enemies.Seashell
         [SerializeField] private float orbitRadius = 2f;
         [SerializeField] private float trackingSpeed = 5f;
         [SerializeField] private float angleThreshold = 0.1f;
+        [SerializeField]
+        private int rotAngleOffset = -15;
 
         private Transform shellLogic;
         private float currentAngle;
         private Vector2 lastPlayerPosition;
         private bool canAttack = false;
+
+        public void FlipAngleOffset(int value)
+            => rotAngleOffset = value;
 
         private void Start()
         {
@@ -91,7 +96,7 @@ namespace Scripts.Enemies.Seashell
             transform.parent.position = (Vector2)shellLogic.position + offset;
 
             // Make the tongue face towards its next position on the orbit
-            transform.parent.rotation = Quaternion.Euler(0, 0, currentAngle);
+            transform.parent.rotation = Quaternion.Euler(0, 0, currentAngle + rotAngleOffset);
         }
 
         private void OnTriggerEnter2D(Collider2D collision)

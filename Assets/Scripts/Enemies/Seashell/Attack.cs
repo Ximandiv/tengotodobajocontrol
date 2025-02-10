@@ -13,25 +13,40 @@ namespace Scripts.Enemies.Seashell
         [SerializeField]
         private CircleCollider2D seashellHitbox;
         [SerializeField]
-        private BoxCollider2D tongueHitbox;
+        private PolygonCollider2D tongueHitbox;
         [SerializeField]
         private SpriteRenderer tongueSprite;
         [SerializeField]
         private SpriteRenderer weakpointSprite;
+        [SerializeField]
+        private SpriteRenderer shellSprite;
+        [SerializeField]
+        private TongueAttack tongueAttack;
+
+        [SerializeField]
+        private Animator shellAnimator;
+        [SerializeField]
+        private Animator tongueAnimator;
 
         private int openDelay = 1;
-        private int closeDelay = 1;
+        private float stayOpenDelay = 1.5f;
+        private int closeDelay = 2;
 
         private bool isAttacking = false;
         private bool canAttack = false;
+        private bool isFacingRight = false;
 
         private void Awake()
         {
             seashellHitbox = GetComponent<CircleCollider2D>();
             visionRange = transform.parent.Find("VisionRange").GetComponent<VisionRange>();
-            tongueHitbox = transform.parent.Find("Tongue").Find("Logic").GetComponent<BoxCollider2D>();
+            tongueHitbox = transform.parent.Find("Tongue").Find("Logic").GetComponent<PolygonCollider2D>();
             tongueSprite = transform.parent.Find("Tongue").Find("Logic").Find("Sprite").GetComponent<SpriteRenderer>();
             weakpointSprite = transform.parent.Find("Sprite_Revealed").GetComponent<SpriteRenderer>();
+            shellAnimator = transform.parent.Find("Sprite_Shell").GetComponent<Animator>();
+            tongueAnimator = transform.parent.Find("Tongue").Find("Logic").Find("Sprite").GetComponent<Animator>();
+            shellSprite = transform.parent.Find("Sprite_Shell").GetComponent<SpriteRenderer>();
+            tongueAttack = transform.parent.Find("Tongue").Find("Logic").GetComponent<TongueAttack>();
 
             visionRange.OnPlayerInRange += setCanAttack;
         }
@@ -40,8 +55,30 @@ namespace Scripts.Enemies.Seashell
         {
             if (!canAttack) return;
 
-            if(!isAttacking)
+            float direction = PlayerTracker.Instance.PlayerPosition.x - transform.position.x;
+
+            if (direction < 0 && isFacingRight)
+            {
+                flip();
+                tongueAttack.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                tongueAttack.FlipAngleOffset(-15);
+            }
+            else if (direction > 0 && !isFacingRight)
+            {
+                flip();
+                tongueAttack.transform.localRotation = Quaternion.Euler(-180, 0, 0);
+                tongueAttack.FlipAngleOffset(15);
+            }
+
+            if (!isAttacking)
                 StartCoroutine(attackSequence());
+        }
+
+        private void flip()
+        {
+            isFacingRight = !isFacingRight;
+
+            shellSprite.flipX = isFacingRight;
         }
 
         private void setCanAttack(bool status)
@@ -53,6 +90,9 @@ namespace Scripts.Enemies.Seashell
             weakpointSprite.enabled = true;
             seashellHitbox.enabled = true;
 
+            shellAnimator.SetBool("isAttacking", true);
+            shellAnimator.SetBool("isInRange", true);
+
             OnVulnerable?.Invoke(true);
 
             yield return new WaitForSeconds(openDelay);
@@ -60,9 +100,14 @@ namespace Scripts.Enemies.Seashell
             tongueSprite.enabled = true;
             tongueHitbox.enabled = true;
 
-            yield return new WaitForSeconds(closeDelay);
+            tongueAnimator.SetBool("isAttacking", true);
+
+            yield return new WaitForSeconds(stayOpenDelay);
 
             OnVulnerable?.Invoke(false);
+
+            shellAnimator.SetBool("isAttacking", false);
+            tongueAnimator.SetBool("isAttacking", false);
 
             tongueSprite.enabled = false;
             tongueHitbox.enabled = false;
@@ -70,6 +115,8 @@ namespace Scripts.Enemies.Seashell
             seashellHitbox.enabled = false;
 
             yield return new WaitForSeconds(closeDelay);
+
+            shellAnimator.SetBool("isInRange", false);
 
             isAttacking = false;
         }
