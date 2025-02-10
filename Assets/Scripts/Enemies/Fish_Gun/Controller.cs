@@ -38,8 +38,8 @@ namespace Scripts.Enemies.Fish_Gun
         [SerializeField]
         private float movementSpeed = 1.5f;
         [SerializeField]
-        private float cooldownPerAttack = 2.5f;
-        private float animationDelay = 0.65f;
+        private float cooldownPerAttack = 2f;
+        private float animationDelay = 0.55f;
 
         private void Awake()
         {
