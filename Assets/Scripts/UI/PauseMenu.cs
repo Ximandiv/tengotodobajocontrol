@@ -19,7 +19,6 @@ public class PauseMenu : MonoBehaviour
         startPanel.SetActive(true);
         pausePanel.SetActive(false);
 
-        // Initialize the animators for each button
         buttonAnimators = new Animator[buttons.Length];
         for (int i = 0; i < buttons.Length; i++)
         {
