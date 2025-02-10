@@ -14390,6 +14390,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPanel: {fileID: 589497385}
   pausePanel: {fileID: 345126383}
+  buttons:
+  - {fileID: 2067997096}
+  - {fileID: 2130403037}
+  - {fileID: 116221897}
 --- !u!114 &1393481442
 MonoBehaviour:
   m_ObjectHideFlags: 0
