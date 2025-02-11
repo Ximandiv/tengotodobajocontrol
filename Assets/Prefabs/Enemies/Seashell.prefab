@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 2755938355334105948}
   - component: {fileID: 7145294039364408538}
   - component: {fileID: 1734741705719334695}
+  - component: {fileID: 5544871866725047927}
   m_Layer: 0
   m_Name: Sprite_Shell
   m_TagString: Untagged
@@ -290,7 +291,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 3887123472099109392, guid: 1f79b1dbaba0b1143acc54c1d78bc5d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -324,6 +325,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5544871866725047927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561578702704393616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8b23283791fdf4fa724b5cef665897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4479455422709724671
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +413,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: -7301706644342533144, guid: 4d245a3237b23e84c80a84d41562e995, type: 3}
   m_Color: {r: 1, g: 0.3726415, b: 0.66616654, a: 1}
   m_FlipX: 0
@@ -553,6 +566,7 @@ MonoBehaviour:
   weakpointSprite: {fileID: 0}
   shellSprite: {fileID: 0}
   tongueAttack: {fileID: 0}
+  death: {fileID: 0}
   shellAnimator: {fileID: 0}
   tongueAnimator: {fileID: 0}
 --- !u!1 &8829486425657675232
@@ -632,7 +646,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8, y: 6}
+  m_Size: {x: 5.75, y: 6}
   m_EdgeRadius: 0
 --- !u!114 &2061008820772062488
 MonoBehaviour:
@@ -672,7 +686,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.75, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1471114262822196032}

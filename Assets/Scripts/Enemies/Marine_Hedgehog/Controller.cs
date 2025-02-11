@@ -1,5 +1,6 @@
 using Scripts.Events.Level;
 using Scripts.Events.Player;
+using System.Collections;
 using UnityEngine;
 
 namespace Scripts.Enemies.Marine_Hedgehog
@@ -12,6 +13,10 @@ namespace Scripts.Enemies.Marine_Hedgehog
         private int meleeDamageAmount = 1;
         [SerializeField]
         private Animator animator;
+        [SerializeField]
+        private bool isIndestructible = false;
+
+        private bool isDead = false;
 
         private void Awake()
         {
@@ -29,9 +34,25 @@ namespace Scripts.Enemies.Marine_Hedgehog
                 transform.parent.gameObject.SetActive(false);
         }
 
+        private IEnumerator deathSequence()
+        {
+            yield return new WaitForSeconds(1.65f);
+            Destroy(transform.parent.gameObject);
+        }
+
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.transform.CompareTag("Player"))
+            if(isDead) return;
+
+            if(collision.CompareTag("PlayerProjectile")
+                && !isIndestructible)
+            {
+                isDead = true;
+
+                animator.SetBool("isDead", true);
+                StartCoroutine(deathSequence());
+            }
+            else if (collision.CompareTag("Player"))
             {
                 animator.SetBool("isAttacking", true);
                 PlayerEvents.InvokePlayerDamaged(meleeDamageAmount);

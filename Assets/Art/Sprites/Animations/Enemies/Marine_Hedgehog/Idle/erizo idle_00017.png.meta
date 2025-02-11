@@ -116,12 +116,12 @@ TextureImporter:
       name: erizo idle_00017_0
       rect:
         serializedVersion: 2
-        x: 210
-        y: 264
+        x: 190
+        y: 248
         width: 550
         height: 500
-      alignment: 9
-      pivot: {x: 0.556777, y: 0.5000001}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

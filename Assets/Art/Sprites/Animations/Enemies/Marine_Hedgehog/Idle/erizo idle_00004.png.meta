@@ -116,8 +116,8 @@ TextureImporter:
       name: erizo idle_00004_0
       rect:
         serializedVersion: 2
-        x: 215
-        y: 245
+        x: 190
+        y: 248
         width: 550
         height: 500
       alignment: 0

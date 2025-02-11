@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4628137310410482762}
   - component: {fileID: 7384299658299165340}
-  - component: {fileID: 4139128218647557228}
+  - component: {fileID: 4523784578356629766}
   - component: {fileID: 1444092772750999387}
   m_Layer: 0
   m_Name: Logic
@@ -172,8 +172,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &4139128218647557228
-BoxCollider2D:
+--- !u!58 &4523784578356629766
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -206,18 +206,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.06600475, y: 0.0069412887}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.2259171, y: 1.1115637}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.032607317, y: 0}
+  m_Radius: 0.7638757
 --- !u!114 &1444092772750999387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +223,7 @@ MonoBehaviour:
   levelPart: Two
   meleeDamageAmount: -1
   animator: {fileID: 3287737124012328028}
+  isIndestructible: 0
 --- !u!1 &5211448147466765933
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +250,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.72, y: 0.1, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4628137310410482762}

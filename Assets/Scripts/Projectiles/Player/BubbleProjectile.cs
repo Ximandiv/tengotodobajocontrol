@@ -61,11 +61,6 @@ namespace Scripts.Projectiles.Player
 
         private IEnumerator destroyBubble(Collider2D collision, bool isProjectile = false, bool isBorder = false)
         {
-            if(!isProjectile && !isBorder)
-                Destroy(collision.transform.parent.gameObject);
-            else if(!isBorder)
-                Destroy(collision.gameObject);
-
             isDying = true;
 
             animator.SetBool("touched", true);

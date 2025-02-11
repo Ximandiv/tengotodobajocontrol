@@ -22,6 +22,8 @@ namespace Scripts.Enemies.Seashell
         private SpriteRenderer shellSprite;
         [SerializeField]
         private TongueAttack tongueAttack;
+        [SerializeField]
+        private Shell_Death death;
 
         [SerializeField]
         private Animator shellAnimator;
@@ -47,6 +49,7 @@ namespace Scripts.Enemies.Seashell
             tongueAnimator = transform.parent.Find("Tongue").Find("Logic").Find("Sprite").GetComponent<Animator>();
             shellSprite = transform.parent.Find("Sprite_Shell").GetComponent<SpriteRenderer>();
             tongueAttack = transform.parent.Find("Tongue").Find("Logic").GetComponent<TongueAttack>();
+            death = transform.parent.Find("Sprite_Shell").GetComponent<Shell_Death>();
 
             visionRange.OnPlayerInRange += setCanAttack;
         }
@@ -72,6 +75,17 @@ namespace Scripts.Enemies.Seashell
 
             if (!isAttacking)
                 StartCoroutine(attackSequence());
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (!collision.CompareTag("PlayerProjectile")) return;
+
+            visionRange.enabled = false;
+            tongueAttack.enabled = false;
+            seashellHitbox.enabled = false;
+
+            death.StartSequence();
         }
 
         private void flip()

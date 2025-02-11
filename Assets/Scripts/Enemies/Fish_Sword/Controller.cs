@@ -1,6 +1,7 @@
 using Scripts.Events.Level;
 using Scripts.Events.Player;
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Scripts.Enemies.Fish_Sword
@@ -18,7 +19,6 @@ namespace Scripts.Enemies.Fish_Sword
         [SerializeField]
         private string levelPart = "One";
 
-        private int damageAmount = -1;
         private bool isFacingRight = false;
         private Animator animator;
 
@@ -70,15 +70,6 @@ namespace Scripts.Enemies.Fish_Sword
         {
             if(level == levelPart)
                 transform.parent.gameObject.SetActive(false);
-        }
-
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            if (collision.transform.CompareTag("Player"))
-            {
-                animator.SetBool("isAttacking", true);
-                PlayerEvents.InvokePlayerDamaged(damageAmount);
-            }
         }
     }
 }
