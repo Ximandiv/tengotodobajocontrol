@@ -28,6 +28,14 @@ public class GameStatus : ScriptableObject
     }
 
     [SerializeField]
+    private bool isInLevelOne = false;
+    public bool IsInLevelOne
+    {
+        get { return isInLevelOne; }
+        set { isInLevelOne = value; }
+    }
+
+    [SerializeField]
     private bool isPlayerDead = false;
     public bool IsPlayerDead
     {

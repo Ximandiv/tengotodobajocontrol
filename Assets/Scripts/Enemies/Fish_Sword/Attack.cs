@@ -12,27 +12,39 @@ namespace Scripts.Enemies.Fish_Sword
         [SerializeField]
         private Transform projectile;
         [SerializeField]
-        private int cooldownPerAttack = 3;
+        private Transform projectileSpawn;
+        private Vector3 originalProjSpawnPos;
+        [SerializeField]
+        private float cooldownPerAttack = 3;
 
         [SerializeField]
         private float animationTime = 0.8f;
         private float animationTimeOffset = 0.1f;
 
         public bool inRange = false;
+        private Controller enemyController;
         private Animator animator;
         private Coroutine attackCoroutine;
 
-        public void Initialize(Animator spriteAnimator)
-            => animator = spriteAnimator;
+        public void Initialize(Animator spriteAnimator, Controller controller)
+        {
+            animator = spriteAnimator;
+            enemyController = controller;
+            enemyController.OnFlipRight += flipSwordSpawn;
+        }
 
         private void Awake()
         {
             hitboxToAttack.OnPlayerInReach += startAttack;
             hitboxToAttack.OnPlayerOutOfReach += stopAttack;
+            projectileSpawn = transform.Find("SwordSpawn");
+
+            originalProjSpawnPos = projectileSpawn.localPosition;
         }
 
         private void OnDestroy()
         {
+            enemyController.OnFlipRight -= flipSwordSpawn;
             hitboxToAttack.OnPlayerInReach -= startAttack;
             hitboxToAttack.OnPlayerOutOfReach -= stopAttack;
 
@@ -62,6 +74,14 @@ namespace Scripts.Enemies.Fish_Sword
             }
         }
 
+        private void flipSwordSpawn(bool onRightSide)
+        {
+            if (onRightSide)
+                projectileSpawn.localPosition = new Vector3(0.244f, 0.035f, 0f);
+            else
+                projectileSpawn.localPosition = originalProjSpawnPos;
+        }
+
         private IEnumerator distanceAttack()
         {
             while (inRange)
@@ -70,7 +90,7 @@ namespace Scripts.Enemies.Fish_Sword
 
                 yield return new WaitForSeconds(animationTime - animationTimeOffset);
 
-                Instantiate(projectile.gameObject, transform.position, Quaternion.identity);
+                Instantiate(projectile.gameObject, projectileSpawn.position, Quaternion.identity);
 
                 yield return new WaitForSeconds(animationTimeOffset);
 

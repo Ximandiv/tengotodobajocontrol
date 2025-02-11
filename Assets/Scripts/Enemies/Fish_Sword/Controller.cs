@@ -1,5 +1,6 @@
 using Scripts.Events.Level;
 using Scripts.Events.Player;
+using System;
 using UnityEngine;
 
 namespace Scripts.Enemies.Fish_Sword
@@ -7,6 +8,8 @@ namespace Scripts.Enemies.Fish_Sword
     [RequireComponent(typeof(Rigidbody2D))]
     public class Controller : MonoBehaviour
     {
+        public event Action<bool> OnFlipRight;
+
         private Movement enemyMovement;
         private Attack enemyAttack;
         private Rigidbody2D rb;
@@ -27,7 +30,7 @@ namespace Scripts.Enemies.Fish_Sword
             spriteTransform = transform.Find("Sprite");
             animator = spriteTransform.GetComponent<Animator>();
 
-            enemyAttack.Initialize(animator);
+            enemyAttack.Initialize(animator, this);
             enemyMovement.Initialize(rb);
 
             LevelOneEvents.OnPartFinished += autoDestroy;
@@ -40,9 +43,15 @@ namespace Scripts.Enemies.Fish_Sword
             float direction = PlayerTracker.Instance.PlayerPosition.x - transform.position.x;
 
             if (direction < 0 && isFacingRight)
+            {
+                OnFlipRight?.Invoke(false);
                 flip();
+            }
             else if (direction > 0 && !isFacingRight)
+            {
+                OnFlipRight?.Invoke(true);
                 flip();
+            }
         }
 
         private void flip()

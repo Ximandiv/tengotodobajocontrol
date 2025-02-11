@@ -24,9 +24,27 @@ namespace Scripts.Level
                 Destroy(gameObject);
                 return;
             }
-            
-            gameStatus.IsInTutorial = true;
+
+            if (SceneManager.GetActiveScene().name == "Tutorial")
+                gameStatus.IsInTutorial = true;
+
             PlayerEvents.OnPlayerKilled += RestartLevelHandler;
+            SceneManager.sceneLoaded += onSceneChange;
+        }
+
+        private void onSceneChange(Scene scene, LoadSceneMode _)
+        {
+            switch(scene.name)
+            {
+                case "Tutorial":
+                    gameStatus.IsInTutorial = true;
+                    gameStatus.IsInLevelOne = false;
+                    break;
+                case "Level_One":
+                    gameStatus.IsInTutorial = false;
+                    gameStatus.IsInLevelOne = true;
+                    break;
+            }
         }
 
         private void RestartLevelHandler()
@@ -37,9 +55,12 @@ namespace Scripts.Level
         private void OnApplicationQuit()
         {
             PlayerEvents.OnPlayerKilled -= RestartLevelHandler;
+            SceneManager.sceneLoaded -= onSceneChange;
+
             gameStatus.IsPlayerDead = false;
             gameStatus.StartCutsceneEnd = false;
             gameStatus.IsInTutorial = false;
+            gameStatus.IsInLevelOne = false;
         }
 
         private IEnumerator RestartLevel()

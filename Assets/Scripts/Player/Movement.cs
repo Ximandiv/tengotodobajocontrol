@@ -66,7 +66,8 @@ namespace Scripts.Player
 
         private void Awake()
         {
-            if(!gameStatus.StartCutsceneEnd)
+            if(!gameStatus.StartCutsceneEnd
+                && gameStatus.IsInLevelOne)
                 canMove = false;
 
             rb = GetComponent<Rigidbody2D>();
