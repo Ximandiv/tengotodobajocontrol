@@ -1,4 +1,5 @@
 using Scripts.Events.Player;
+using Scripts.Projectiles.Player;
 using System.Collections;
 using UnityEngine;
 
@@ -37,6 +38,7 @@ namespace Scripts.Enemies.Fish_Sword
                 enemyAttack.enabled = false;
 
                 animator.SetBool("isDead", true);
+                collision.transform.Find("Health").GetComponent<Player_ProjectileDeath>().AutoDestroy();
                 StartCoroutine(deathSequence());
             }
             else if (collision.CompareTag("Player"))

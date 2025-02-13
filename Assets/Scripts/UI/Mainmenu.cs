@@ -37,7 +37,7 @@ public class Mainmenu : MonoBehaviour
     
     public void ShowCredits()
     {
-        SceneManager.LoadSceneAsync(3); 
+        SceneManager.LoadSceneAsync(4); 
     }
 
     public void QuitGame()

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 93062c6f3ce6005418a9119abfb84de9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -930903151004800978
+    second: borde de cielo y tierra_0
+  - first:
+      213: -9125132857809568872
+    second: borde de cielo y tierra_1
+  - first:
+      213: 1294472447107182184
+    second: borde de cielo y tierra_2
+  - first:
+      213: -4914009826097483781
+    second: borde de cielo y tierra_3
+  - first:
+      213: -4350580056575554691
+    second: borde de cielo y tierra_4
+  - first:
+      213: 555491738409601479
+    second: borde de cielo y tierra_5
+  - first:
+      213: 29124306144945493
+    second: borde de cielo y tierra_6
+  - first:
+      213: -207056760732406206
+    second: borde de cielo y tierra_7
+  - first:
+      213: -4628338614676832717
+    second: borde de cielo y tierra_8
+  - first:
+      213: 9014771710457484339
+    second: borde de cielo y tierra_9
+  - first:
+      213: 3003176924964809964
+    second: borde de cielo y tierra_10
+  - first:
+      213: -4390099738808615059
+    second: borde de cielo y tierra_11
+  - first:
+      213: 4564344709291467550
+    second: borde de cielo y tierra_12
+  - first:
+      213: 5417745521840731322
+    second: borde de cielo y tierra_13
+  - first:
+      213: -6566265892286193863
+    second: borde de cielo y tierra_14
+  - first:
+      213: 1450748377585776403
+    second: borde de cielo y tierra_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: borde de cielo y tierra_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 345
+        width: 869
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28211c2484c413f0800000000000000
+      internalID: -930903151004800978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 739
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf30a43040d5180800000000000000
+      internalID: -9125132857809568872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 746
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eaa5d05d3e6f110800000000000000
+      internalID: 1294472447107182184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_3
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 746
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff2ea4491eedcbb0800000000000000
+      internalID: -4914009826097483781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 751
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b4ae82d72af93c0800000000000000
+      internalID: -4350580056575554691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 746
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9819ffac085b700800000000000000
+      internalID: 555491738409601479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 734
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5556912f668776000800000000000000
+      internalID: 29124306144945493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 736
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ea33029f2602df0800000000000000
+      internalID: -207056760732406206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 737
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eb6fb4d86d4cfb0800000000000000
+      internalID: -4628338614676832717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_9
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 737
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3341f0dbb17ea1d70800000000000000
+      internalID: 9014771710457484339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 736
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec6d22708d6da920800000000000000
+      internalID: 3003176924964809964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 435
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ff6cb1c8b3313c0800000000000000
+      internalID: -4390099738808615059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_12
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 406
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1360c5845fc75f30800000000000000
+      internalID: 4564344709291467550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 338
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4b7c009d2bf2b40800000000000000
+      internalID: 5417745521840731322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 350
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f9485e5ffefd4a0800000000000000
+      internalID: -6566265892286193863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borde de cielo y tierra_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 347
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317797886f7122410800000000000000
+      internalID: 1450748377585776403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      borde de cielo y tierra_0: -930903151004800978
+      borde de cielo y tierra_1: -9125132857809568872
+      borde de cielo y tierra_10: 3003176924964809964
+      borde de cielo y tierra_11: -4390099738808615059
+      borde de cielo y tierra_12: 4564344709291467550
+      borde de cielo y tierra_13: 5417745521840731322
+      borde de cielo y tierra_14: -6566265892286193863
+      borde de cielo y tierra_15: 1450748377585776403
+      borde de cielo y tierra_2: 1294472447107182184
+      borde de cielo y tierra_3: -4914009826097483781
+      borde de cielo y tierra_4: -4350580056575554691
+      borde de cielo y tierra_5: 555491738409601479
+      borde de cielo y tierra_6: 29124306144945493
+      borde de cielo y tierra_7: -207056760732406206
+      borde de cielo y tierra_8: -4628338614676832717
+      borde de cielo y tierra_9: 9014771710457484339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

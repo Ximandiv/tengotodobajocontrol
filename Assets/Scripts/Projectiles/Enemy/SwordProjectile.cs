@@ -1,4 +1,5 @@
 using Scripts.Events.Player;
+using Scripts.Projectiles.Player;
 using System.Collections;
 using UnityEngine;
 
@@ -50,6 +51,11 @@ namespace Scripts.Projectiles.Enemy
             if (collision.transform.CompareTag("Player"))
             {
                 PlayerEvents.InvokePlayerDamaged(damage);
+                Destroy(gameObject);
+            }
+            else if(collision.CompareTag("PlayerProjectile"))
+            {
+                collision.transform.Find("Health").GetComponent<Player_ProjectileDeath>().AutoDestroy();
                 Destroy(gameObject);
             }
             else if (collision.transform.CompareTag("Borders"))

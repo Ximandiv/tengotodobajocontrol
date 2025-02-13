@@ -1,5 +1,6 @@
 using Scripts.Events.Level;
 using Scripts.Events.Player;
+using Scripts.Projectiles.Player;
 using System.Collections;
 using UnityEngine;
 
@@ -50,6 +51,7 @@ namespace Scripts.Enemies.Marine_Hedgehog
                 isDead = true;
 
                 animator.SetBool("isDead", true);
+                collision.transform.Find("Health").GetComponent<Player_ProjectileDeath>().AutoDestroy();
                 StartCoroutine(deathSequence());
             }
             else if (collision.CompareTag("Player"))

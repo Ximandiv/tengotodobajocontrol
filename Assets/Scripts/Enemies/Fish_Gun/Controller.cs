@@ -147,12 +147,7 @@ namespace Scripts.Enemies.Fish_Gun
             rb.MovePosition(transform.position + (-direction) * movementSpeed * Time.fixedDeltaTime);
         }
 
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            if (collision.transform.CompareTag("Player"))
-            {
-                PlayerEvents.InvokePlayerDamaged(-1);
-            }
-        }
+        private void OnDisable()
+            => StopAllCoroutines();
     }
 }

@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: 6f61e97320aff4645887523cd77eb38c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8328001857380271828
+    second: backgraound paralax_1_0
+  - first:
+      213: -6484356509380165208
+    second: backgraound paralax_1_1
+  - first:
+      213: -1640221157483025825
+    second: backgraound paralax_1_2
+  - first:
+      213: -277370679821888927
+    second: backgraound paralax_1_3
+  - first:
+      213: 5200652029324036641
+    second: backgraound paralax_1_4
+  - first:
+      213: 504570549981988242
+    second: backgraound paralax_1_5
+  - first:
+      213: -4257707798528945794
+    second: backgraound paralax_1_6
+  - first:
+      213: 8522029391606061622
+    second: backgraound paralax_1_7
+  - first:
+      213: 1173045336683976255
+    second: backgraound paralax_1_8
+  - first:
+      213: 6394375040689135596
+    second: backgraound paralax_1_9
+  - first:
+      213: -3196401674391493124
+    second: backgraound paralax_1_10
+  - first:
+      213: -5385283432172756534
+    second: backgraound paralax_1_11
+  - first:
+      213: -7637182638307241222
+    second: backgraound paralax_1_12
+  - first:
+      213: -536913141224664070
+    second: backgraound paralax_1_13
+  - first:
+      213: 5242750079368586862
+    second: backgraound paralax_1_14
+  - first:
+      213: 9040220678881801136
+    second: backgraound paralax_1_15
+  - first:
+      213: -912304796566883711
+    second: backgraound paralax_1_16
+  - first:
+      213: -2945934387432219067
+    second: backgraound paralax_1_17
+  - first:
+      213: -4801320181580760052
+    second: backgraound paralax_1_18
+  - first:
+      213: -8651847717111774910
+    second: backgraound paralax_1_19
+  - first:
+      213: -4512868809155621700
+    second: backgraound paralax_1_20
+  - first:
+      213: -3247641082754005194
+    second: backgraound paralax_1_21
+  - first:
+      213: 3901741227293702207
+    second: backgraound paralax_1_22
+  - first:
+      213: 8133700037235786824
+    second: backgraound paralax_1_23
+  - first:
+      213: -5055420160221120068
+    second: backgraound paralax_1_24
+  - first:
+      213: 8655349415109511442
+    second: backgraound paralax_1_25
+  - first:
+      213: -8882649474026507108
+    second: backgraound paralax_1_26
+  - first:
+      213: 5599342869646896039
+    second: backgraound paralax_1_27
+  - first:
+      213: -1433709229682498558
+    second: backgraound paralax_1_28
+  - first:
+      213: -3206696957905563164
+    second: backgraound paralax_1_29
+  - first:
+      213: 2599084700501323341
+    second: backgraound paralax_1_30
+  - first:
+      213: -4246847981187545061
+    second: backgraound paralax_1_31
+  - first:
+      213: 7174717717715129868
+    second: backgraound paralax_1_32
+  - first:
+      213: 8061550151137130453
+    second: backgraound paralax_1_33
+  - first:
+      213: 7069443134588777315
+    second: backgraound paralax_1_34
+  - first:
+      213: -4870049800362578160
+    second: backgraound paralax_1_35
+  - first:
+      213: 2506012403117589908
+    second: backgraound paralax_1_36
+  - first:
+      213: 5863559309354867627
+    second: backgraound paralax_1_37
+  - first:
+      213: 5008201484452483571
+    second: backgraound paralax_1_38
+  - first:
+      213: -1231678468337696847
+    second: backgraound paralax_1_39
+  - first:
+      213: 6113118011807735283
+    second: backgraound paralax_1_40
+  - first:
+      213: 3854742132960300732
+    second: backgraound paralax_1_41
+  - first:
+      213: 8619093056979603860
+    second: backgraound paralax_1_42
+  - first:
+      213: -1505275846295593253
+    second: backgraound paralax_1_43
+  - first:
+      213: 6102345866407096264
+    second: backgraound paralax_1_44
+  - first:
+      213: 5853509752569086798
+    second: backgraound paralax_1_45
+  - first:
+      213: -1669125390668204491
+    second: backgraound paralax_1_46
+  - first:
+      213: 772171953189187016
+    second: backgraound paralax_1_47
+  - first:
+      213: -3557517061994491492
+    second: backgraound paralax_1_48
+  - first:
+      213: -8437241561631637506
+    second: backgraound paralax_1_49
+  - first:
+      213: 4826824874693603643
+    second: backgraound paralax_1_50
+  - first:
+      213: -4306218802130886693
+    second: backgraound paralax_1_51
+  - first:
+      213: -2214866080908528738
+    second: backgraound paralax_1_52
+  - first:
+      213: -6713586140430103450
+    second: backgraound paralax_1_53
+  - first:
+      213: -2626507264812073405
+    second: backgraound paralax_1_54
+  - first:
+      213: 2059056916885897503
+    second: backgraound paralax_1_55
+  - first:
+      213: 6906989558678132231
+    second: backgraound paralax_1_56
+  - first:
+      213: -1908298033778725832
+    second: backgraound paralax_1_57
+  - first:
+      213: -1408504033525470218
+    second: backgraound paralax_1_58
+  - first:
+      213: 2865465198016720806
+    second: backgraound paralax_1_59
+  - first:
+      213: -7763946692319834797
+    second: backgraound paralax_1_60
+  - first:
+      213: 8862205911802103435
+    second: backgraound paralax_1_61
+  - first:
+      213: -8042372044438197284
+    second: backgraound paralax_1_62
+  - first:
+      213: -7038749693391583845
+    second: backgraound paralax_1_63
+  - first:
+      213: -4043896771103854616
+    second: backgraound paralax_1_64
+  - first:
+      213: 5353961421545631719
+    second: backgraound paralax_1_65
+  - first:
+      213: 7761416777321812001
+    second: backgraound paralax_1_66
+  - first:
+      213: -4637158990873851224
+    second: backgraound paralax_1_67
+  - first:
+      213: -4373859809223915591
+    second: backgraound paralax_1_68
+  - first:
+      213: -6647624330973233899
+    second: backgraound paralax_1_69
+  - first:
+      213: 5223476804940521713
+    second: backgraound paralax_1_70
+  - first:
+      213: 3761338825540880445
+    second: backgraound paralax_1_71
+  - first:
+      213: -3585132005225808473
+    second: backgraound paralax_1_72
+  - first:
+      213: 6276478334207267360
+    second: backgraound paralax_1_73
+  - first:
+      213: -8503383341117571084
+    second: backgraound paralax_1_74
+  - first:
+      213: -7500709517448461667
+    second: backgraound paralax_1_75
+  - first:
+      213: -298792644271949228
+    second: backgraound paralax_1_76
+  - first:
+      213: -3344493756784069268
+    second: backgraound paralax_1_77
+  - first:
+      213: -4575973741930351534
+    second: backgraound paralax_1_78
+  - first:
+      213: -3250056735333955046
+    second: backgraound paralax_1_79
+  - first:
+      213: 3757987197180234009
+    second: backgraound paralax_1_80
+  - first:
+      213: -9096168862433090974
+    second: backgraound paralax_1_81
+  - first:
+      213: -545780201217958737
+    second: backgraound paralax_1_82
+  - first:
+      213: 1442916451464695368
+    second: backgraound paralax_1_83
+  - first:
+      213: -1447782264941299311
+    second: backgraound paralax_1_84
+  - first:
+      213: -9135279739429146165
+    second: backgraound paralax_1_85
+  - first:
+      213: 2194481572961931713
+    second: backgraound paralax_1_86
+  - first:
+      213: -7364413160603092022
+    second: backgraound paralax_1_87
+  - first:
+      213: -6565353261682335019
+    second: backgraound paralax_1_88
+  - first:
+      213: 7482178746853356212
+    second: backgraound paralax_1_89
+  - first:
+      213: -3069313289129036633
+    second: backgraound paralax_1_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backgraound paralax_1_0
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 952
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6c1fdc091039370800000000000000
+      internalID: 8328001857380271828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 958
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1476d3c10f206a0800000000000000
+      internalID: -6484356509380165208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 971
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ae42b2c83cc39e0800000000000000
+      internalID: -1640221157483025825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_3
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 961
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1629b1616d4962cf0800000000000000
+      internalID: -277370679821888927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_4
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 941
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a0648677d6c2840800000000000000
+      internalID: 5200652029324036641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 950
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295cccbed38900700800000000000000
+      internalID: 504570549981988242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 959
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e719547c05599e4c0800000000000000
+      internalID: -4257707798528945794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 949
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a1e1c7494544670800000000000000
+      internalID: 8522029391606061622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_8
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 957
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f361a76c48e774010800000000000000
+      internalID: 1173045336683976255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 952
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef56ec78326db850800000000000000
+      internalID: 6394375040689135596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 957
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf56e66cc9914a3d0800000000000000
+      internalID: -3196401674391493124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 914
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1eb8a3041a345b0800000000000000
+      internalID: -5385283432172756534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 946
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af29aee9ad6430690800000000000000
+      internalID: -7637182638307241222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_13
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 946
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3901eb7508c88f0800000000000000
+      internalID: -536913141224664070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_14
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 941
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e666aee7b6df1c840800000000000000
+      internalID: 5242750079368586862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 943
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3f3ef6fc0557d70800000000000000
+      internalID: 9040220678881801136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 938
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182feb10f97d653f0800000000000000
+      internalID: -912304796566883711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_17
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 941
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e9e796840fd17d0800000000000000
+      internalID: -2945934387432219067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_18
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 943
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cf6fbbbb84e5db0800000000000000
+      internalID: -4801320181580760052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_19
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24147ca37567ee780800000000000000
+      internalID: -8651847717111774910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_20
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 944
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc6507ab11f51c0800000000000000
+      internalID: -4512868809155621700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_21
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 947
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378b7854af0ee2d0800000000000000
+      internalID: -3247641082754005194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_22
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 940
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38765259f4c52630800000000000000
+      internalID: 3901741227293702207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_23
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 927
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8444505f615b0e070800000000000000
+      internalID: 8133700037235786824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_24
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 949
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9fba7262a87d9b0800000000000000
+      internalID: -5055420160221120068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_25
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 950
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219cc7e5f6afd1870800000000000000
+      internalID: 8655349415109511442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_26
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 949
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94f65c9d5d7ab480800000000000000
+      internalID: -8882649474026507108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_27
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 940
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab6be06cacd4bd40800000000000000
+      internalID: 5599342869646896039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_28
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204639d3d017a1ce0800000000000000
+      internalID: -1433709229682498558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_29
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 867
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e196b94b168f73d0800000000000000
+      internalID: -3206696957905563164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_30
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 856
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ea88ab3cdc11420800000000000000
+      internalID: 2599084700501323341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 840
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b184b3a034a2015c0800000000000000
+      internalID: -4246847981187545061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_32
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 845
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c069c1040c7b19360800000000000000
+      internalID: 7174717717715129868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_33
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 815
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d77689862160ef60800000000000000
+      internalID: 8061550151137130453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_34
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 821
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363fcfc4315bb1260800000000000000
+      internalID: 7069443134588777315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_35
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 825
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f2dea528b1a6cb0800000000000000
+      internalID: -4870049800362578160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_36
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 804
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4950c82d00527c220800000000000000
+      internalID: 2506012403117589908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_37
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 789
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab1889102c8f5150800000000000000
+      internalID: 5863559309354867627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_38
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1df5c27b4b08540800000000000000
+      internalID: 5008201484452483571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_39
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 794
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bffb3175f238eee0800000000000000
+      internalID: -1231678468337696847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_40
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 777
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd97db617826d450800000000000000
+      internalID: 6113118011807735283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_41
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 758
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe84dfeb8bce7530800000000000000
+      internalID: 3854742132960300732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_42
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 703
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4911e4b287b2d9770800000000000000
+      internalID: 8619093056979603860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_43
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 613
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde5394d79f2c1be0800000000000000
+      internalID: -1505275846295593253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_44
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 682
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfa4cfdb33efa450800000000000000
+      internalID: 6102345866407096264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 663
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e434a235b18db3150800000000000000
+      internalID: 5853509752569086798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 643
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536f2a3fc4316d8e0800000000000000
+      internalID: -1669125390668204491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_47
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 646
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd6c5fdc4e47ba00800000000000000
+      internalID: 772171953189187016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_48
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 627
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c915d65a41921aec0800000000000000
+      internalID: -3557517061994491492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 619
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effb8ca8085e8ea80800000000000000
+      internalID: -8437241561631637506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 625
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b12166a35cf240800000000000000
+      internalID: 4826824874693603643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_51
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 573
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf51e590dc3d34c0800000000000000
+      internalID: -4306218802130886693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_52
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 605
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b266c8073341e0800000000000000
+      internalID: -2214866080908528738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_53
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 576
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c8da2b9fc84d2a0800000000000000
+      internalID: -6713586140430103450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_54
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 574
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb4e8fe85cc8bd0800000000000000
+      internalID: -2626507264812073405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 584
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f118b474b5d339c10800000000000000
+      internalID: 2059056916885897503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 552
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7069758a86e8adf50800000000000000
+      internalID: 6906989558678132231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 553
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cea038c0d5485e0800000000000000
+      internalID: -1908298033778725832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_58
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 541
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb62094b0df37ce0800000000000000
+      internalID: -1408504033525470218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_59
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 464
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afe70c6a6d24c720800000000000000
+      internalID: 2865465198016720806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_60
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 362
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d05355e9be04490800000000000000
+      internalID: -7763946692319834797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_61
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 331
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86c453a251ecfa70800000000000000
+      internalID: 8862205911802103435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_62
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 337
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbaab36c31c36090800000000000000
+      internalID: -8042372044438197284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95418e5276515e90800000000000000
+      internalID: -7038749693391583845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 301
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef610aef4131e7c0800000000000000
+      internalID: -4043896771103854616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_65
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 292
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef6f50eb871d4a40800000000000000
+      internalID: 5353961421545631719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120160eef6716bb60800000000000000
+      internalID: 7761416777321812001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 284
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa84fd677085afb0800000000000000
+      internalID: -4637158990873851224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_68
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 261
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7c9dd5dadec43c0800000000000000
+      internalID: -4373859809223915591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 249
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51db81044e4eeb3a0800000000000000
+      internalID: -6647624330973233899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_70
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0e8fa9a748d7840800000000000000
+      internalID: 5223476804940521713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_71
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 235
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38cf30cbb5f23430800000000000000
+      internalID: 3761338825540880445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_72
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 215
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adb1a3af6d0f3ec0800000000000000
+      internalID: -3585132005225808473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_73
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 198
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0221cde6ac78a1750800000000000000
+      internalID: 6276478334207267360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_74
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff76b377e9edf980800000000000000
+      internalID: -8503383341117571084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_75
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92c7113f6028e790800000000000000
+      internalID: -7500709517448461667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_76
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45abba05ca97adbf0800000000000000
+      internalID: -298792644271949228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_77
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65bf59e5a8f591d0800000000000000
+      internalID: -3344493756784069268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_78
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254f9b25020ee70c0800000000000000
+      internalID: -4575973741930351534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_79
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 65
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1acd866e9a75e2d0800000000000000
+      internalID: -3250056735333955046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_80
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 60
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919c466f17d072430800000000000000
+      internalID: 3757987197180234009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_81
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 61
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e4b9fc9ae3c180800000000000000
+      internalID: -9096168862433090974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_82
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac56f47ccffc68f0800000000000000
+      internalID: -545780201217958737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_83
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ece122ed4460410800000000000000
+      internalID: 1442916451464695368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_84
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199301263b178ebe0800000000000000
+      internalID: -1447782264941299311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_85
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1b08f4a77f83180800000000000000
+      internalID: -9135279739429146165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1598e1d5d547e10800000000000000
+      internalID: 2194481572961931713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_87
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb7a0faf395cc990800000000000000
+      internalID: -7364413160603092022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_88
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 57
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e8744efd23e4a0800000000000000
+      internalID: -6565353261682335019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_89
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2fb209de906d760800000000000000
+      internalID: 7482178746853356212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgraound paralax_1_90
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f31153db9765d0800000000000000
+      internalID: -3069313289129036633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      backgraound paralax_1_0: 8328001857380271828
+      backgraound paralax_1_1: -6484356509380165208
+      backgraound paralax_1_10: -3196401674391493124
+      backgraound paralax_1_11: -5385283432172756534
+      backgraound paralax_1_12: -7637182638307241222
+      backgraound paralax_1_13: -536913141224664070
+      backgraound paralax_1_14: 5242750079368586862
+      backgraound paralax_1_15: 9040220678881801136
+      backgraound paralax_1_16: -912304796566883711
+      backgraound paralax_1_17: -2945934387432219067
+      backgraound paralax_1_18: -4801320181580760052
+      backgraound paralax_1_19: -8651847717111774910
+      backgraound paralax_1_2: -1640221157483025825
+      backgraound paralax_1_20: -4512868809155621700
+      backgraound paralax_1_21: -3247641082754005194
+      backgraound paralax_1_22: 3901741227293702207
+      backgraound paralax_1_23: 8133700037235786824
+      backgraound paralax_1_24: -5055420160221120068
+      backgraound paralax_1_25: 8655349415109511442
+      backgraound paralax_1_26: -8882649474026507108
+      backgraound paralax_1_27: 5599342869646896039
+      backgraound paralax_1_28: -1433709229682498558
+      backgraound paralax_1_29: -3206696957905563164
+      backgraound paralax_1_3: -277370679821888927
+      backgraound paralax_1_30: 2599084700501323341
+      backgraound paralax_1_31: -4246847981187545061
+      backgraound paralax_1_32: 7174717717715129868
+      backgraound paralax_1_33: 8061550151137130453
+      backgraound paralax_1_34: 7069443134588777315
+      backgraound paralax_1_35: -4870049800362578160
+      backgraound paralax_1_36: 2506012403117589908
+      backgraound paralax_1_37: 5863559309354867627
+      backgraound paralax_1_38: 5008201484452483571
+      backgraound paralax_1_39: -1231678468337696847
+      backgraound paralax_1_4: 5200652029324036641
+      backgraound paralax_1_40: 6113118011807735283
+      backgraound paralax_1_41: 3854742132960300732
+      backgraound paralax_1_42: 8619093056979603860
+      backgraound paralax_1_43: -1505275846295593253
+      backgraound paralax_1_44: 6102345866407096264
+      backgraound paralax_1_45: 5853509752569086798
+      backgraound paralax_1_46: -1669125390668204491
+      backgraound paralax_1_47: 772171953189187016
+      backgraound paralax_1_48: -3557517061994491492
+      backgraound paralax_1_49: -8437241561631637506
+      backgraound paralax_1_5: 504570549981988242
+      backgraound paralax_1_50: 4826824874693603643
+      backgraound paralax_1_51: -4306218802130886693
+      backgraound paralax_1_52: -2214866080908528738
+      backgraound paralax_1_53: -6713586140430103450
+      backgraound paralax_1_54: -2626507264812073405
+      backgraound paralax_1_55: 2059056916885897503
+      backgraound paralax_1_56: 6906989558678132231
+      backgraound paralax_1_57: -1908298033778725832
+      backgraound paralax_1_58: -1408504033525470218
+      backgraound paralax_1_59: 2865465198016720806
+      backgraound paralax_1_6: -4257707798528945794
+      backgraound paralax_1_60: -7763946692319834797
+      backgraound paralax_1_61: 8862205911802103435
+      backgraound paralax_1_62: -8042372044438197284
+      backgraound paralax_1_63: -7038749693391583845
+      backgraound paralax_1_64: -4043896771103854616
+      backgraound paralax_1_65: 5353961421545631719
+      backgraound paralax_1_66: 7761416777321812001
+      backgraound paralax_1_67: -4637158990873851224
+      backgraound paralax_1_68: -4373859809223915591
+      backgraound paralax_1_69: -6647624330973233899
+      backgraound paralax_1_7: 8522029391606061622
+      backgraound paralax_1_70: 5223476804940521713
+      backgraound paralax_1_71: 3761338825540880445
+      backgraound paralax_1_72: -3585132005225808473
+      backgraound paralax_1_73: 6276478334207267360
+      backgraound paralax_1_74: -8503383341117571084
+      backgraound paralax_1_75: -7500709517448461667
+      backgraound paralax_1_76: -298792644271949228
+      backgraound paralax_1_77: -3344493756784069268
+      backgraound paralax_1_78: -4575973741930351534
+      backgraound paralax_1_79: -3250056735333955046
+      backgraound paralax_1_8: 1173045336683976255
+      backgraound paralax_1_80: 3757987197180234009
+      backgraound paralax_1_81: -9096168862433090974
+      backgraound paralax_1_82: -545780201217958737
+      backgraound paralax_1_83: 1442916451464695368
+      backgraound paralax_1_84: -1447782264941299311
+      backgraound paralax_1_85: -9135279739429146165
+      backgraound paralax_1_86: 2194481572961931713
+      backgraound paralax_1_87: -7364413160603092022
+      backgraound paralax_1_88: -6565353261682335019
+      backgraound paralax_1_89: 7482178746853356212
+      backgraound paralax_1_9: 6394375040689135596
+      backgraound paralax_1_90: -3069313289129036633
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

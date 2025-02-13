@@ -67,7 +67,7 @@ namespace Scripts.Level
         {
             yield return new WaitForSeconds(3);
             var sceneName = SceneManager.GetActiveScene().name;
-            SceneManager.LoadScene(sceneName);
+            SceneManager.LoadSceneAsync(sceneName);
             gameStatus.IsPlayerDead = false;
         }
     }

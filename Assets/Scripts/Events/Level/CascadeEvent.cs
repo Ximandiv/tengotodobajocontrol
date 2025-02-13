@@ -1,11 +1,17 @@
+using System;
 using UnityEngine;
 
 namespace Scripts.Events.Level
 {
     public class CascadeEvent : MonoBehaviour
     {
+        public static event Action<bool> OnCascade;
+
         private BoxCollider2D leftWall;
         private Transform bottomWall;
+
+        public static void InvokeCascade(bool status)
+            => OnCascade?.Invoke(status);
 
         private void Awake()
         {
@@ -19,7 +25,8 @@ namespace Scripts.Events.Level
             {
                 leftWall.enabled = true;
                 Destroy(bottomWall.gameObject);
-                Destroy(gameObject);
+                transform.GetComponent<BoxCollider2D>().enabled = false;
+                OnCascade?.Invoke(true);
             }
         }
     }

@@ -42,6 +42,9 @@ namespace Scripts.Enemies.Fish_Sword
             originalProjSpawnPos = projectileSpawn.localPosition;
         }
 
+        private void OnDisable()
+            => StopAllCoroutines();
+
         private void OnDestroy()
         {
             enemyController.OnFlipRight -= flipSwordSpawn;

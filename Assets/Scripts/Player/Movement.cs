@@ -57,11 +57,6 @@ namespace Scripts.Player
             stop();
         }
 
-        public void OnFinishedInitCutscenes()
-        {
-            canMove = true;
-        }
-
         #region Unity API Methods
 
         private void Awake()

@@ -19,6 +19,8 @@ namespace Scripts.Events.Level
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
+            if (!collision.CompareTag("Player")) return;
+
             switch(sceneName)
             {
                 case "Tutorial":

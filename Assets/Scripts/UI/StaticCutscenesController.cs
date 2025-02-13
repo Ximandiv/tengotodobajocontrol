@@ -100,7 +100,6 @@ namespace Scripts.UI
             }
 
             yield return new WaitForSeconds(1);
-
             
             if (currentCutsceneIndex == 0)
                 finished = true;

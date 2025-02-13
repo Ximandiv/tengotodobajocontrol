@@ -61,6 +61,11 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = false;
     }
 
+    public void RestartLevel()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+    }
+
     public void StartGame()
     {
         startPanel.SetActive(false);

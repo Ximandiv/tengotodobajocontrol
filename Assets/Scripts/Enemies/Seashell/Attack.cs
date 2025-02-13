@@ -1,3 +1,4 @@
+using Scripts.Projectiles.Player;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -84,6 +85,10 @@ namespace Scripts.Enemies.Seashell
             visionRange.enabled = false;
             tongueAttack.enabled = false;
             seashellHitbox.enabled = false;
+
+            StopAllCoroutines();
+
+            collision.transform.Find("Health").GetComponent<Player_ProjectileDeath>().AutoDestroy();
 
             death.StartSequence();
         }

@@ -109,7 +109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 6
   m_Sprite: {fileID: -6981468383253904962, guid: e63453bc57b92784f852368f2bd18d5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -312,14 +312,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5349577753243224395}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a84e80c4b32881648865f3a362fa4b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  projectile: {fileID: 4414983930527106626, guid: 3c447dd5c39a24a46aed27f25f9bf606, type: 3}
+  bubbleProjectile: {fileID: 4414983930527106626, guid: 3c447dd5c39a24a46aed27f25f9bf606, type: 3}
+  swordProjectile: {fileID: 8633008768481401454, guid: e2b8700520feba645abba6c0f6bd808a, type: 3}
   spriteRenderer: {fileID: 5175496238232727379}
+  isAttacking: 0
 --- !u!114 &4437013750605243473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,7 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9abfa195f5f3f46bbf43bd60fae370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathClip: {fileID: 8300000, guid: 85c79247c2f1e30458cd21bb6b3a6b29, type: 3}
+  death: {fileID: 8300000, guid: 85c79247c2f1e30458cd21bb6b3a6b29, type: 3}
+  shootingBubble: {fileID: 8300000, guid: 34105cd49fe820840b43679e17f7e9ef, type: 3}
 --- !u!82 &2192971199194819183
 AudioSource:
   m_ObjectHideFlags: 0
