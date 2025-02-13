@@ -109,9 +109,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8435394486458505093}
   - {fileID: 4833241514370481502}
   - {fileID: 5574804995830420087}
-  - {fileID: 8435394486458505093}
   - {fileID: 268538370940038516}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -213,11 +213,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffa80c73918eff046b3de47d102c5905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderHandleImage: {fileID: 4344370447465053192}
+  mutedHandleSprite: {fileID: -8842561107821085840, guid: 9cce64ee93692a242b2fc8bd4fb00321, type: 3}
+  defaultHandleSprite: {fileID: -2054050737669980536, guid: ad2f62bd7439c7749987ecb36c3ff925, type: 3}
   musicSlider: {fileID: 3822142785535922918}
   myMixer: {fileID: 24100000, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
-  fullVol: {fileID: 5407470142867202094}
+  Vol: {fileID: 5407470142867202094}
   noVol: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
-  normalVol: {fileID: -7754280961913482228, guid: ba7b5946c7d5c264ab816dfc0ec71127, type: 3}
+  fullVol: {fileID: 276569112776551028, guid: f7105e046978c13468a9c633e9ed44c8, type: 3}
+  twentyVol: {fileID: -7231491283657308760, guid: 6c7f96855d1264b4cb32fbb3108ae9bc, type: 3}
+  fortyVol: {fileID: 779146532259178329, guid: c6d7f20da445b734b98ad119bb59d5ae, type: 3}
+  sixtyVol: {fileID: 3144894799443403741, guid: ed169d8092d686c4ab8ea34cff58d014, type: 3}
+  eightyVol: {fileID: 891520704343290510, guid: 5b8cbb8a8fa72654cb5286bf5482f99e, type: 3}
 --- !u!114 &2498382751109973806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1582,7 +1589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
+  m_Sprite: {fileID: 8925489124945635457, guid: 6da2702f1f6bd4f45ab4485dc47d3900, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
