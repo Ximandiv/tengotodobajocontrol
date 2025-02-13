@@ -4,11 +4,19 @@ using UnityEngine.UI;
 
 public class VolumeSettings : MonoBehaviour
 {
+    [SerializeField] private Image sliderHandleImage; 
+    [SerializeField] private Sprite mutedHandleSprite; 
+    [SerializeField] private Sprite defaultHandleSprite; 
     [SerializeField] private Slider musicSlider;
     [SerializeField] private AudioMixer myMixer;
-    public Image fullVol;
+    public Image Vol;
     public Sprite noVol;
-    public Sprite normalVol;
+    public Sprite fullVol;
+    public Sprite twentyVol;
+    public Sprite fortyVol;
+    public Sprite sixtyVol;
+    public Sprite eightyVol;
+
 
     private void Start()
     {
@@ -43,14 +51,27 @@ public class VolumeSettings : MonoBehaviour
 
     public void changeImage()
     {
-        if (musicSlider.value == 0.0001f)
+        if (musicSlider.value <= 0.05f) // Muted
         {
-            fullVol.overrideSprite = noVol;
+            Vol.overrideSprite = noVol;
+            sliderHandleImage.sprite = mutedHandleSprite; // Change to muted handle
         }
-        else if (musicSlider.value > 0.0001f)
+        else 
         {
-            fullVol.overrideSprite = normalVol;
+            if (musicSlider.value <= 0.2f) 
+                Vol.overrideSprite = twentyVol;
+            else if (musicSlider.value <= 0.4f) 
+                Vol.overrideSprite = fortyVol;
+            else if (musicSlider.value <= 0.6f) 
+                Vol.overrideSprite = sixtyVol;
+            else if (musicSlider.value <= 0.8f) 
+                Vol.overrideSprite = eightyVol;
+            else 
+                Vol.overrideSprite = fullVol;
+
+            
+            if (sliderHandleImage.sprite != defaultHandleSprite)
+                sliderHandleImage.sprite = defaultHandleSprite;
         }
     }
-    
 }
