@@ -13,6 +13,7 @@ namespace Scripts.Audio
 
         public GameStatus gameStatus;
 
+        public AudioClip actualTutorial;
         public List<AudioClip> tutorialPartOne = new();
         public List<AudioClip> tutorialPartTwo = new();
         public AudioClip tutorialDuel;
@@ -89,24 +90,27 @@ namespace Scripts.Audio
         {
             if (gameStatus.IsInTutorial)
             {
-                audioSource.clip = tutorialPartOne[0];
+                audioSource.clip = actualTutorial;
+                audioSource.loop = true;
                 audioSource.Play();
             }
 
             LevelOneEvents.OnPartFinished += changeSongOnPartInTutorial;
             SceneManager.sceneLoaded += (Scene scene, LoadSceneMode loadMode) =>
             {
-                if (scene.name != "JamTutorial")
-                {
-                    StopAllCoroutines();
-                    audioSource.Stop();
-                    return;
-                }
-
                 StopAllCoroutines();
                 audioSource.Stop();
-                audioSource.clip = tutorialPartOne[0];
-                audioSource.Play();
+
+                if(scene.name == "Tutorial")
+                {
+                    audioSource.clip = actualTutorial;
+                    audioSource.Play();
+                }
+                else if (scene.name == "Level_One")
+                {
+                    audioSource.clip = tutorialPartOne[0];
+                    audioSource.Play();
+                }
             };
         }
 
