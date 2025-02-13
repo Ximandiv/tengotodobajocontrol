@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a07df13d7bfcc6d4db753a0043a08dbb
+guid: 6c7f96855d1264b4cb32fbb3108ae9bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 636687102265464423
-    second: roca fondo_0
+      213: -7231491283657308760
+    second: volumen_20_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roca fondo_0
+      name: volumen_20_0
       rect:
         serializedVersion: 2
-        x: 166
-        y: 110
-        width: 518
-        height: 613
+        x: 263
+        y: 504
+        width: 132
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7661b93db87f5d800800000000000000
-      internalID: 636687102265464423
+      spriteID: 8a5c549ddf494ab90800000000000000
+      internalID: -7231491283657308760
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      roca fondo_0: 636687102265464423
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

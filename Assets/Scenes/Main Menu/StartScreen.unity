@@ -2023,11 +2023,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffa80c73918eff046b3de47d102c5905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderHandleImage: {fileID: 60019518}
+  mutedHandleSprite: {fileID: -8842561107821085840, guid: 9cce64ee93692a242b2fc8bd4fb00321, type: 3}
+  defaultHandleSprite: {fileID: -2054050737669980536, guid: ad2f62bd7439c7749987ecb36c3ff925, type: 3}
   musicSlider: {fileID: 1141865403}
   myMixer: {fileID: 24100000, guid: bbdda225e5fe23c4291ecd2c0a311d94, type: 2}
-  fullVol: {fileID: 1332796138}
+  Vol: {fileID: 1332796138}
   noVol: {fileID: 5267562089891875242, guid: 0d1efe6891f87af4b97c1fbe6ad6b9ef, type: 3}
-  normalVol: {fileID: -7754280961913482228, guid: ba7b5946c7d5c264ab816dfc0ec71127, type: 3}
+  fullVol: {fileID: 276569112776551028, guid: f7105e046978c13468a9c633e9ed44c8, type: 3}
+  twentyVol: {fileID: -7231491283657308760, guid: 6c7f96855d1264b4cb32fbb3108ae9bc, type: 3}
+  fortyVol: {fileID: 779146532259178329, guid: c6d7f20da445b734b98ad119bb59d5ae, type: 3}
+  sixtyVol: {fileID: 3144894799443403741, guid: ed169d8092d686c4ab8ea34cff58d014, type: 3}
+  eightyVol: {fileID: 891520704343290510, guid: 5b8cbb8a8fa72654cb5286bf5482f99e, type: 3}
 --- !u!1 &2003576426
 GameObject:
   m_ObjectHideFlags: 0
